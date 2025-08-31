@@ -15,7 +15,7 @@ export let gamesCharecter = [
   {
     id: 2,
     name: "Crossy Road",
-    img: "./img/Games/Crossy_Road.png",
+    img: "./img/Games/Crossy_Road.PNG",
     color: "#FCCD86",
     rating: 6,
     width: "210px",
@@ -82,8 +82,8 @@ export let oldGames = [
   {
     id: 1,
     name: "Cut the Rope",
-    bgimg: "./img/play/cut the rope.jpg",
-    icon: "./img/play/Om Nom.png",
+    bgimg: "../img/play/cut the rope.jpg",
+    icon: "../img/play/Om Nom.png",
     img: [
       "../img/populargames/cuttherope2.png",
       "../img/populargames/cuttherope.png",
@@ -104,8 +104,8 @@ export let oldGames = [
   {
     id: 2,
     name: "Where is my Water?",
-    bgimg: "./img/play/wmwbg.jpg",
-    icon: "./img/play/wmwicon.png",
+    bgimg: "../img/play/wmwbg.jpg",
+    icon: "../img/play/wmwicon.png",
     img: [
       "../img/populargames/where is my water2.jpg",
       "../img/populargames/where is my water.png",
@@ -125,8 +125,8 @@ export let oldGames = [
   {
     id: 3,
     name: "Angry birds",
-    bgimg: "./img/play/angree birds.jpg",
-    icon: "./img/play/angribirdicon.png",
+    bgimg: "../img/play/angree birds.jpg",
+    icon: "../img/play/angribirdicon.png",
     img: [
       "../img/populargames/angrybirds2.jpg",
       "../img/populargames/angrybirds.png",
@@ -148,8 +148,8 @@ export let oldGames = [
   {
     id: 4,
     name: "Fruit Ninja",
-    bgimg: "./img/play/fruitninjabg2.jpg",
-    icon: "./img/play/fruitninjaicon.png",
+    bgimg: "../img/play/fruitninjabg2.jpg",
+    icon: "../img/play/fruitninjaicon.png",
     img: [
       "../img/populargames/fruitninja2.png",
       "../img/populargames/fruitninja.png",
@@ -171,8 +171,8 @@ export let oldGames = [
   {
     id: 5,
     name: "Pack-Man",
-    bgimg: "./img/play/pack-man.png",
-    icon: "./img/play/packman2.png",
+    bgimg: "../img/play/pack-man.png",
+    icon: "../img/play/packman2.png",
     img: [
       "../img/populargames/packman2.jpg",
       "../img/populargames/pack-man.png",
@@ -193,8 +193,8 @@ export let oldGames = [
   {
     id: 6,
     name: "Doodle Jump",
-    bgimg: "./img/play/doodlejumpbg.jpg",
-    icon: "./img/play/doodlejumpicon2.png",
+    bgimg: "../img/play/doodlejumpbg.jpg",
+    icon: "../img/play/doodlejumpicon2.png",
     img: [
       "../img/populargames/doodlejump2.jpg",
       "../img/populargames/doodlejump.png",
@@ -280,9 +280,9 @@ export let Games = [
     img: "./img/ActionGames/Temple Run.png",
     bgimg: "./img/ActionGames/temple runbg.jpg",
     imgcard: [
-      "./img/ActionGames/Temple Run2.png",
-      "./img/ActionGames/Temple Run3.png",
-      "./img/ActionGames/Temple Run4.png",
+      "../img/ActionGames/Temple Run2.png",
+      "../img/ActionGames/Temple Run3.png",
+      "../img/ActionGames/Temple Run4.png",
     ],
     desc: "The Ultimate Endless Runner Adventure",
     about:
