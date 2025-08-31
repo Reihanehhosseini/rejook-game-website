@@ -86,7 +86,7 @@ export let oldGames = [
     icon: "../img/play/Om Nom.png",
     img: [
       "../img/populargames/cuttherope2.png",
-      "../img/populargames/cuttherope.png",
+      "./img/populargames/cuttherope.png",
     ],
     desc: "Slove clever puzzles by cutting ropes to feed candy to the adorable monster, Om Nom",
     rate: 4.6,
@@ -108,7 +108,7 @@ export let oldGames = [
     icon: "../img/play/wmwicon.png",
     img: [
       "../img/populargames/where is my water2.jpg",
-      "../img/populargames/where is my water.png",
+      "./img/populargames/where is my water.png",
     ],
     desc: "Get ready to join Swampy, Allie, and Cranky on their NEXT exciting adventure!",
     rate: 4.5,
@@ -129,7 +129,7 @@ export let oldGames = [
     icon: "../img/play/angribirdicon.png",
     img: [
       "../img/populargames/angrybirds2.jpg",
-      "../img/populargames/angrybirds.png",
+      "./img/populargames/angrybirds.png",
     ],
     desc: "Launch angry birds to defeat the mischievous pigs and save the eggs!",
     rate: 4.5,
@@ -152,7 +152,7 @@ export let oldGames = [
     icon: "../img/play/fruitninjaicon.png",
     img: [
       "../img/populargames/fruitninja2.png",
-      "../img/populargames/fruitninja.png",
+      "./img/populargames/fruitninja.png",
     ],
     desc: "Slice fruits with speed and precision experiencing the thrill in every momnent.",
     rate: 3.9,
@@ -175,7 +175,7 @@ export let oldGames = [
     icon: "../img/play/packman2.png",
     img: [
       "../img/populargames/packman2.jpg",
-      "../img/populargames/pack-man.png",
+      "./img/populargames/pack-man.png",
     ],
     desc: "Guide Pack-Man through a maze, gobbling pellets and doodging colorful ghosts to rack up the highest score",
     rate: 4.6,
@@ -193,11 +193,11 @@ export let oldGames = [
   {
     id: 6,
     name: "Doodle Jump",
-    bgimg: "../img/play/doodlejumpbg.jpg",
+    bgimg: "./img/play/doodlejumpbg.jpg",
     icon: "../img/play/doodlejumpicon2.png",
     img: [
       "../img/populargames/doodlejump2.jpg",
-      "../img/populargames/doodlejump.png",
+      "./img/populargames/doodlejump.png",
     ],
     desc: "One of the hottest mobile games of all time! Easy to pick up and play. Wildly addictive.",
     rate: 4.6,
