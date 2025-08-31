@@ -1,0 +1,33 @@
+.Action{
+    width: 100%;
+    padding: 30px 10px;
+}
+.Action-header{
+display: flex;
+align-items: center;
+justify-content: space-between;
+padding: 0 30px;
+}
+.Action-list{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    row-gap: 4rem;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.Action-header h1{
+    margin-left: 20px;
+}
+@media screen and (max-width:688px) {
+    .Action{
+        padding:  10px;
+    }
+}
+@media screen and (max-width:430px) {
+    .Action-header{
+        padding: 0;
+    }
+}
+

@@ -1,0 +1,273 @@
+.GamesPage {
+  width: 100%;
+  height: 100%;
+}
+.GamesPage-bg {
+  width: 100%;
+  height: 500px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  position: relative;
+}
+.gamesPage-overally {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  backdrop-filter: var(--backDropFilter);
+  display: flex;
+  flex-direction: column;
+  padding: 0 100px;
+}
+.gamesPage-left {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.gamesPage-left-header {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  color: #fff;
+  width: 100%;
+}
+.gamesPage-left-header h1 {
+  font-family: Recoleta;
+  font-size: 60px;
+  color: #fff;
+}
+/* .gamesPage-left-header h3 {
+  font-family: poppinsBold;
+  font-size: 28px;
+  color: #fff;
+} */
+.gamesPage-left h5 {
+  font-family: poppinsLight;
+  font-size: 17px;
+}
+.gamesPage-rate span {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+}
+.gamesPage-about-video {
+  border-radius: 10px;
+  width: 926px;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  border-radius: 5px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+.gamesPage-about-video video {
+  width: 100%;
+  height: 100%;
+  border: 5px solid var(--poster-color);
+  border-radius: 5px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+.gamesPage-section {
+  display: flex;
+}
+.gamesPage-left-card {
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  align-items: center;
+  justify-content: start;
+}
+.rate-reviews {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  margin-top: 30px;
+}
+
+/* ................about........... */
+.gamesPage-about {
+  padding: 50px 100px;
+  display: flex;
+  flex-direction: column;
+  gap: 5rem;
+}
+.gamesPage-about h2 {
+  font-family: poppinsBold;
+  font-size: 20px;
+  color: var(--fontColor);
+}
+.gamesPage-about-section p {
+  text-align: justify;
+  color: var(--gray);
+  margin-top: 15px;
+  font-family: robotoBold;
+  font-family: 0.875rem;
+  line-height: 1.25;
+  font-weight: 400;
+  letter-spacing: 0.0142857143rem;
+}
+
+/* ---------------- summery ------------ */
+.platform {
+  background: #fe6404;
+  background: linear-gradient(98deg, #fe6404 0%, #233248 70%);
+  background: -webkit-linear-gradient(98deg, #fe6404 0%, #233248 70%);
+  background: -moz-linear-gradient(98deg, #fe6404 0%, #233248 70%);
+}
+.platform .GameSummery:last-child {
+  border-right: none;
+}
+
+@media screen and (max-width: 1200px) {
+  .gamesPage-left-header h1 {
+    font-size: 40px;
+  }
+  .gamesPage-left-header h5 {
+    font-size: 14px;
+  }
+  .gamesPage-rate span {
+    font-size: 14px;
+  }
+  .gamesPage-genre {
+    font-size: 14px;
+  }
+  .GamesPage-bg {
+    height: 400px;
+  }
+  .gamesPage-about p {
+    font-size: 14px;
+  }
+  .gamesPage-about {
+    padding-right: 50px;
+    padding-left: 70px;
+  }
+}
+@media screen and (max-width: 992px) {
+  .gamesPage-left-header h1 {
+    font-size: 30px;
+  }
+  .gamesPage-left-header h5 {
+    font-size: 13px;
+  }
+  .gamesPage-rate span {
+    font-size: 13px;
+  }
+  .gamesPage-genre {
+    font-size: 13px;
+  }
+  .gamesPage-about p {
+    font-size: 13px;
+  }
+  .gamesPage-left-card {
+    padding: 50px 30px;
+  }
+  .gamesPage-about {
+    padding-right: 30px;
+    gap: 3rem;
+  }
+  .gamesPage-overally {
+    padding: 0 70px;
+  }
+  .GamesPage-bg {
+    height: 350px;
+  }
+  .gamesPage-left-card {
+    justify-content: space-between;
+  }
+}
+@media screen and (max-width: 767px) {
+  .gamesPage-about-video {
+    width: 800px;
+  }
+  .gamesPage-overally {
+    padding-right: 50px;
+  }
+  .gamesPage-about {
+    padding-right: 22px;
+  }
+  .gamesPage-left-card {
+    padding: 50px 22px;
+  }
+}
+@media screen and (max-width: 688px) {
+  .gamesPage-about {
+    padding-left: 22px;
+  }
+  .gamesPage-overally {
+    padding-left: 22px;
+    padding-right: 22px;
+  }
+  .gamesPage-left-header h1 {
+    font-size: 25px;
+  }
+  .gamesPage-left-header h5 {
+    font-size: 11px;
+  }
+  .gamesPage-rate span {
+    font-size: 11px;
+  }
+  .gamesPage-genre {
+    font-size: 11px;
+  }
+}
+@media screen and (max-width: 576px) {
+  .gamesPage-about {
+    gap: 2rem;
+    padding-bottom: 5px;
+  }
+  .gamesPage-about h2{
+    font-size: 18px;
+  }
+   .GamesPage-bg {
+    height: 550px;
+  }
+  .gamesPage-section{
+    flex-direction: column;
+  }
+  .gamesPage-left-card{
+    flex-direction: row;
+    padding-top: 5px;
+  }
+  .gamesPage-left{
+    flex-direction: column-reverse;
+  }
+  .gamesPage-about-video {
+    width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+  }
+
+}
+@media screen and (max-width: 480px){
+  .GamesPage-bg {
+    height: 490px;
+  }
+  .gamesPage-about {
+    padding-top: 30px;
+    gap: 1.5rem;
+}}
+@media screen and (max-width: 415px){
+  .GamesPage-bg {
+    height: 450px;
+  }}
+@media screen and (max-width: 375px){
+  .gamesPage-left-header h1 {
+    font-size: 20px;
+  }
+  .gamesPage-left-header h5 {
+    font-size: 10px;
+  }
+  .gamesPage-rate span {
+    font-size: 10px;
+  }
+}

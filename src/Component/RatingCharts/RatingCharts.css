@@ -1,0 +1,41 @@
+.RatingCharts {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 7px;
+}
+.rating-item{
+    display: flex;
+    align-items: center;
+    
+}
+.rating-item span{
+    font-family: poppinsLight;
+    font-size: 10px;
+    margin-right: 10px;
+    display: flex;
+    align-items: end;
+
+}
+.rating-row {
+  height: 7px;
+  width: 90%;
+  display: flex;
+  align-items: center;
+  background-color: #949597;
+  border-radius: 10px;
+  position: relative;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+.rating-blue-row {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  border-radius: 10px;
+  background-color: var(--orange);
+}

@@ -1,0 +1,154 @@
+.DownloadComponent {
+  background-color: #fff;
+  color: #000;
+  margin-top: 50px;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  padding: 20px 50px;
+  margin:20px 100px 40px 100px;
+}
+.DownloadComponent h1 {
+  color: #000;
+}
+.download-header {
+  display: flex;
+  gap: 2rem;
+  border-bottom: 1px solid #dbd9d9;
+  padding-bottom: 20px;
+}
+.download-header-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+.download-header img {
+  border-radius: 10px;
+}
+.download-footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px 0;
+  gap: 10px;
+}
+.download-footer h1 {
+  font-size: 20px;
+}
+.download-footer-section {
+  display: flex;
+  gap: 1rem;
+}
+.download-header-img img {
+  width: 128px;
+  height: 128px;
+}
+
+@media screen and (max-width: 800px) {
+  .DownloadComponent {
+    padding: 20px 30px;
+    margin:20px 50px 40px 50px;
+  }
+  .download-header-img img {
+    width: 120px;
+    height: 120px;
+  }
+}
+
+@media screen and (max-width: 688px) {
+  .DownloadComponent {
+    padding: 20px;
+  }
+  .download-header-img img {
+    width: 100px;
+    height: 100px;
+  }
+  .download-header {
+    gap: 1rem;
+  }
+  .download-header-text p {
+    font-size: 14px;
+  }
+}
+@media screen and (max-width: 480px) {
+  .download-header-text h1 {
+    font-size: 18px;
+  }
+  .DownloadComponent {
+    padding: 13.5px;
+    margin-top: 15px;
+  }
+  .download-footer {
+    padding: 10px 0;
+  }
+  .download-footer h1 {
+    font-size: 18px;
+  }
+  .download-header-img img {
+    width: 90px;
+    height: 90px;
+  }
+  .download-header {
+    padding-bottom: 10px;
+  }
+  .download-header-text p {
+    font-size: 12px;
+  }
+  .download-header {
+    gap: 10px;
+  }
+}
+@media screen and (max-width: 400px) {
+  .download-header-text h1,
+  .download-footer h1 {
+    font-size: 16px;
+  }
+  .download-header-img img {
+    width: 80px;
+    height: 80px;
+  }
+  .download-footer {
+    gap: 3.5px;
+    padding: 5px 0;
+  }
+  .DownloadComponent {
+    padding: 10px;
+    margin:0 20px 40px 20px;
+  }
+}
+@media screen and (max-width: 376px) {
+  .download-header-text h1,
+  .download-footer h1 {
+    font-size: 14px;
+  }
+  .download-header-text p {
+    margin-bottom: 1px !important;
+  }
+  .download-footer {
+    gap: 0;
+    padding: 0;
+  }
+}
+@media screen and (max-width: 345px) {
+  .DownloadComponent {
+    padding: 5px;
+    margin-top: 10px;
+  }
+  .download-header-text h1,
+  .download-footer h1 {
+    font-size: 13px;
+  }
+  .download-header-text p {
+    margin-bottom: 0 !important;
+  }
+  .download-header-img img {
+    width: 70px;
+    height: 70px;
+  }
+  .download-header-img{
+    display: flex;
+    align-items: center;
+  }
+}

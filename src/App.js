@@ -1,24 +1,59 @@
-import logo from './logo.svg';
-import './App.css';
+import { useContext, useEffect, useState } from "react";
+import "./App.css";
+import Header from "./Component/Header/Header";
+import Section from "./Component/Section/Section";
+import Portal from "./Portal";
+import { RejookContext } from "./Context";
+import { Games, oldGames, tips } from "./data.s";
+import Footer from "./Component/Footer/Footer";
 
 function App() {
+  const [humbergerMenuShow, setHumbergerMenuShow] = useState(false);
+  const [showPortal, setShowPortal] = useState(false);
+  const [allGames, setAllGames] = useState(Games);
+  const [allComments, setAllComments] = useState([]);
+  const [date, setDate] = useState();
+  const [textArea, setTextArea] = useState("");
+  const [gamesGenre, setGamesGenre] = useState([]);
+  const [popularGamesArray, setpopularGamesArray] = useState(oldGames);
+  const [searchValue, setSearchValue] = useState();
+  const [findGame, setFindGame] = useState([]);
+  const [allTips, setAllTips] = useState(tips);
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <RejookContext.Provider
+      value={{
+        humbergerMenuShow,
+        setHumbergerMenuShow,
+        showPortal,
+        setShowPortal,
+        popularGamesArray,
+        setpopularGamesArray,
+        allGames,
+        setAllGames,
+        allComments,
+        setAllComments,
+        date,
+        setDate,
+        textArea,
+        setTextArea,
+        gamesGenre,
+        setGamesGenre,
+        searchValue,
+        setSearchValue,
+        findGame,
+        setFindGame,
+        allTips,
+        setAllTips,
+      }}
+    >
+      <div className="App">
+        <Portal />
+        <Header />
+        <Section />
+        <Footer />
+      </div>
+    </RejookContext.Provider>
   );
 }
 

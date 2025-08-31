@@ -1,0 +1,109 @@
+.OldGames {
+  width: 100%;
+}
+.oldgamesheader {
+  width: 100%;
+  padding: 40px 0;
+  display: flex;
+  /* background-color: var(--purple); */
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  background-image: url("../../../public/img/oldgamegrid.webp");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  
+}
+.oldgamesheader h1 {
+  font-family: PressStart;
+  color: var(--orange);
+}
+.OldGames h1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.OldGames h4 {
+  font-family: poppinsRegular;
+  font-size: 20px;
+  /* color: #fff; */
+}
+.OldGames-intro {
+  width: 100%;
+  padding: 0 150px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+@media screen and (max-width: 1200px) {
+  .OldGames-intro {
+    padding: 0 100px;
+  }
+}
+@media screen and (max-width: 994px) {
+  .OldGames-intro {
+    padding: 0 80px;
+  }
+}
+@media screen and (max-width: 910px) {
+  .OldGames-intro {
+    padding: 0 60px;
+  }
+}
+@media screen and (max-width: 867px) {
+  .OldGames-intro {
+    padding-right: 30px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .oldgamesheader h4 {
+    font-size: 18px;
+  }
+}
+@media screen and (max-width: 700px) {
+  .OldGames-intro {
+    padding-left: 30px;
+  }
+}
+@media screen and (max-width: 688px) {
+  .OldGames-intro {
+    padding: 0 15px;
+  }
+}
+@media screen and (max-width: 525px) {
+  .oldgamesheader h1 {
+    font-size: 20px;
+  }
+  .oldgamesheader h4 {
+    font-size: 15px;
+  }
+}
+@media screen and (max-width: 576px) {
+  .oldgamesheader {
+    padding: 25px 0;
+    gap: 2px;
+  }
+}
+@media screen and (max-width: 480px) {
+  .oldgamesheader {
+    padding: 20px 0;
+    gap: 2px;
+  }
+  .oldgamesheader h4 {
+    font-size: 13.5px;
+  }
+}
+@media screen and (max-width:410px) {
+  .oldgamesheader h4 {
+    font-size: 13px;
+  }
+  
+}
+@media screen and (max-width:350px) {
+  .oldgamesheader h4 {
+    font-size: 11.5px;
+  }
+  
+}

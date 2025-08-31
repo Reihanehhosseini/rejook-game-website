@@ -1,0 +1,168 @@
+.CardsOldGame {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 3rem;
+  border-bottom: 1px solid rgb(200, 199, 199);
+  padding: 20px 0;
+}
+.CardsOldGame:last-child {
+  border-bottom: none;
+}
+.CardsOldGame-img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #fff;
+  padding: 3px;
+}
+.CardsOldGame-img button{
+  display: none;
+}
+.CardsOldGame-center {
+  display: flex;
+}
+.CardsOldGame-name {
+  width: 250px;
+  align-items: center;
+  display: flex;
+  gap: 1rem;
+  font-family: poppinsBold;
+}
+.CardsOldGame-fact {
+  width: 600px;
+  font-family: poppinsLight;
+  text-align: justify;
+}
+.CardsOldGame-fact span:first-child {
+  font-family: poppinsBold;
+}
+.CardsOldGame button {
+  font-size: 12px;
+}
+
+/* -------------------------- responsive --------------------------------- */
+
+@media screen and (max-width: 1464px) {
+  .CardsOldGame {
+    gap: 1.5rem;
+  }
+  .CardsOldGame-name {
+    width: 200px;
+  }
+  .CardsOldGame span {
+    font-size: 14px;
+  }
+  .CardsOldGame-fact {
+    width: 500px;
+  }
+}
+@media screen and (max-width: 1242px) {
+  .CardsOldGame {
+    gap: 1rem;
+  }
+  .CardsOldGame-img img {
+    width: 70px !important;
+    height: 70px !important;
+  }
+  .CardsOldGame-name {
+    width: 200px;
+    gap: 7px;
+  }
+  .CardsOldGame span {
+    font-size: 13px;
+  }
+  .CardsOldGame-fact {
+    width: 450px;
+  }
+}
+@media screen and (max-width: 1028px) {
+
+  .CardsOldGame-name {
+    width: 150px;
+  }
+}
+@media screen and (max-width: 992px) {
+  .CardsOldGame span {
+    font-size: 12px;
+  }
+  .CardsOldGame {
+    gap: 10px;
+  }
+  .CardsOldGame-name {
+    width: 130px;
+  }
+}
+@media screen and (max-width: 960px) {
+  .CardsOldGame button {
+    font-size: 10px;
+  }
+}
+@media screen and (max-width: 867px) {
+  .CardsOldGame-center {
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+  }
+  .CardsOldGame-name {
+    justify-content: start;
+  }
+  .CardsOldGame-name {
+    width: 150px;
+    font-size: 14px;
+  }
+}
+@media screen and (max-width: 688px) {
+  .CardsOldGame-fact {
+    width: 300px;
+  }
+}
+@media screen and (max-width: 525px) {
+  .CardsOldGame {
+    gap: 5px;
+  }
+}
+@media screen and (max-width: 481px) {
+  .CardsOldGame-fact {
+    font-size: 10px;
+    word-spacing: -1px;
+  }
+  .CardsOldGame-fact {
+    width: 270px;
+  }
+}
+@media screen and (max-width: 445px) {
+  .CardsOldGame {
+    flex-direction: column;
+    align-items: start;
+    gap: 12px;
+  }
+  .CardsOldGame-fact {
+    width: 100%;
+  }
+  .CardsOldGame-center{
+    gap: 10px;
+
+  }
+  .last-btn{
+    display: none;
+  }
+  .CardsOldGame-img button{
+    display: block;
+  }
+  .CardsOldGame-img{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    background-color: inherit;
+  }
+  .CardsOldGame-img img{
+    border-radius: 12px;
+    -webkit-border-radius: 12px;
+    -moz-border-radius: 12px;
+    -ms-border-radius: 12px;
+    -o-border-radius: 12px;
+}
+
+}

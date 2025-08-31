@@ -1,0 +1,97 @@
+.comment{
+    width: 100%;
+    color: #7d7b7b;
+    color: var(--fontColor);
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+.comment-user{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    font-family: RobotoBold;
+}
+.first-letter{
+    background-color:var(--blue-dark) ;
+    width: 35px;
+    height: 35px;
+    color: #fff;
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+}
+.user-date{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    font-family: RobotoLight;
+    font-size: 0.75rem;
+}
+.user-comment{
+    text-align: justify;
+    font-family: RobotoMedium;
+    font-weight: 400;
+    font-size: 0.875rem;
+
+}
+.user-helpfull{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    color: var(--fontColor);
+    font-family: RobotoMedium;
+    font-size: 0.75rem;
+}
+.user-opinion{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+    
+}
+.user-opinion span{
+    color: var(--fontColor);
+    font-family: RobotoMedium;
+    font-size: 0.75rem;
+}
+.user-opinion button{
+    border: 1px solid var(--fontColor);
+    background-color: inherit;
+    text-align: center;
+    padding: 5px 10px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+.user-opinion svg{
+    fill: var(--fontColor);
+}
+@media screen and (max-width: 1200px){
+    .user-comment{
+        font-size: 14px;
+    }
+}
+@media screen and (max-width: 992){
+    .user-comment{
+        font-size: 13px;
+    }
+}
+@media screen and (max-width:768px) {
+    .user-comment{
+        font-family: RobotoLight;
+        font-size: 12px;
+    }
+    
+    .user-opinion button{
+        padding: 5px ;
+    }
+    .user-opinion svg{
+        width: 14px;
+        height: 14px;
+    }
+}

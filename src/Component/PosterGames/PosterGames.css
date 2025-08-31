@@ -1,0 +1,41 @@
+.posterGames {
+  max-width: 100%;
+  display: flex;
+  flex-direction: column;
+  margin-top: 65px;
+  margin-bottom: 90px;
+}
+.posterGames-title {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  padding: 0 70px;
+}
+@media screen and (max-width:688px) {
+  .posterGames{
+    margin-top: 30px;
+  }
+  
+}
+@media screen and (max-width: 576px) {
+
+  .posterGames-title{
+    padding: 0 30px;
+  }
+}
+@media screen and (max-width: 480px) {
+  .posterGames{
+    margin-bottom: 50px;
+  }
+  .posterGames-title{
+    justify-content: space-evenly;
+    padding: 0 15px;
+    gap: 50px;
+  }}
+@media screen and (max-width: 346px) {
+  .posterGames-title{
+    padding: 0 10px;
+    gap: 2px;
+  }
+}

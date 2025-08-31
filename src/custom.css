@@ -1,0 +1,81 @@
+@import "./reset.css";
+
+@font-face {
+  font-family: Recoleta;
+  src: url("../public/font/Recoleta\ Alt\ Regular.woff");
+}
+@font-face {
+  font-family: poppinsBold;
+  src: url("../public/font/poppins/Poppins-Bold.woff");
+}
+@font-face {
+  font-family: poppinsRegular;
+  src: url("../public/font/poppins/Poppins-Regular.woff");
+}
+@font-face {
+  font-family: poppinsLight;
+  src: url("../public/font/poppins/Poppins-Light.woff");
+}
+@font-face {
+  font-family: robotoBold;
+  src: url("../public/font/roboto/Roboto-Bold.woff");
+}
+@font-face {
+  font-family: robotoLight;
+  src: url("../public/font/roboto/Roboto-Light.woff");
+}
+@font-face {
+  font-family: robotoMedium;
+  src: url("../public/font/roboto/Roboto-Medium.woff");
+}
+@font-face {
+  font-family: PressStart;
+  src: url("../public/font/PressStart2P-Regular.woff");
+}
+.flex-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+:root {
+  --backgroundColor: #292929;
+  --buttonColor: #1c1c1c;
+  --fontColor: #fff;
+  --gray: #cac4c4;
+  --orange: #fd904c;
+  --orange-dark: #fe6404;
+  --yellow: #f0cf5b;
+  --green: #4fff8d;
+  --purple: #22163a;
+  --blue-dark: #233248;
+  /* --main-shadow: inset 2px 2px 10px #0000001a,
+    inset -2px -2px 10px rgba(0, 0, 0, 0.1), 1px 1px 5px rgba(99, 99, 99, 0.5),
+    -1px -1px 5px rgba(99, 99, 99, 0.5); */
+  --main-shadow: 3px 3px 6px #0000001a, -3px -3px 6px #000 !important;
+  /* --main-shadow-hover: 2px 2px 10px rgba(0, 0, 0, 0.1),
+    -2px -2px 10px rgba(0, 0, 0, 0.1), inset 1px 1px 3px rgba(99, 99, 99, 0.5),
+    inset -1px -1px 3px rgba(99, 99, 99, 0.5); */
+    --main-shadow-hover: inset 2px 2px 5px #0000001a, inset -2px -2px 7px #000;
+  --poster-color: #ffffff09;
+  --linear-gradient: linear-gradient(
+    177deg,
+    rgba(255, 255, 255, 1) 0%,
+    rgba(10, 5, 5, 1) 100%
+  );
+  --backDropFilter: blur(3px) brightness(17%);
+  --empty-stars: #949597;
+  --border-end: rgba(99, 99, 99, 0.5);
+  --hover-list: #585b5c;
+}
+.dark-theme {
+  --backgroundColor: #dfdfdf;
+  --buttonColor: #dfdfdf;
+  --fontColor: #292929;
+  --gray: #585656;
+  --main-shadow: 3px 3px 6px #b8b9be, -3px -3px 6px #fff !important;
+  --main-shadow-hover: inset 2px 2px 5px #b8b9be, inset -3px -3px 7px #fff;
+  --poster-color: rgba(255, 255, 255, 0.426);
+  --backDropFilter: blur(3px) brightness(30%);
+  --border-end: #b8b9be;
+  --hover-list: #f3f5f6;
+}

@@ -1,0 +1,25 @@
+.titr {
+  font-family: poppinsBold;
+  font-size: 30px;
+  color: var(--fontColor);
+  margin-bottom: 0 !important;
+  
+}
+
+@media screen and (max-width: 768px) {
+  .titr {
+    font-size: 25px;
+    line-height: 40px;
+  }
+}
+
+@media screen and (max-width: 430px) {
+  .titr {
+    font-size: 20px;
+  }
+}
+@media screen and (max-width:375px) {
+.titr{
+  font-size: 16px;
+}
+}

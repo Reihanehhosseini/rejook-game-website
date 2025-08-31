@@ -1,0 +1,63 @@
+.TournamentBox {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  gap: 1rem;
+}
+.TournamentBox span:nth-child(2) {
+  font-size: 20px;
+  font-family: PoppinsBold;
+}
+.TournamentBox span:nth-child(3) {
+  font-size: 18px;
+  font-family: PoppinsRegular;
+}
+@media screen and (max-width: 1265px) {
+  .TournamentBox span:nth-child(2) {
+    font-size: 18px;
+  }
+  .TournamentBox span:nth-child(3) {
+    font-size: 16px;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .TournamentBox span:nth-child(2) {
+    font-size: 15px;
+  }
+  .TournamentBox span:nth-child(3) {
+    font-size: 13px;
+  }
+  .TournamentBox img {
+    width: 45px;
+  }
+}
+@media screen and (max-width: 992px) {
+  .TournamentBox span:nth-child(2) {
+    font-size: 13.5px;
+  }
+  .TournamentBox span:nth-child(3) {
+    font-size: 12px;
+  }
+  .TournamentBox img {
+    width: 40px;
+  }
+  .TournamentBox {
+    gap: 5px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .Tournaments-boxes {
+    gap: 1.5rem;
+  }
+}
+@media screen and (max-width: 577px) {
+  .TournamentBox span:nth-child(2) {
+    font-size: 12px;
+  }
+  .TournamentBox span:nth-child(3) {
+    font-size: 10.5px;
+  }
+  .TournamentBox img {
+    width: 35px;
+  }
+}

@@ -1,0 +1,36 @@
+.GameSummery {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+}
+.GameSummery span {
+  color: #fff !important;
+}
+.border-end-custom {
+  border-right: 2px solid var(--border-end);
+}
+@media screen and (max-width: 1200px) {
+  .GameSummery span {
+    font-size: 13px;
+  }
+}
+@media screen and (max-width: 1060px) {
+  .GameSummery {
+    padding: 5px;
+    justify-content: center;
+  }
+  .GameSummery span {
+    font-size: 12px;
+  }
+  .row * {
+    padding: 0 !important;
+  }
+}
+@media screen and (max-width:688px) {
+  .text-muted{
+    display: none;
+  }
+  
+}

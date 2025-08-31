@@ -1,0 +1,112 @@
+.posterGames-pic {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  row-gap: 5rem;
+  padding: 0 5px;
+}
+.posterGames-pic a{
+  text-decoration: none;
+  list-style-type: none;
+  color: var(--fontColor);
+}
+.item {
+  display: flex;
+  align-items: center;
+  max-width: 400px;
+  background-color: var(--buttonColor);
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  padding: 10px;
+  box-shadow: var(--main-shadow);
+  cursor: pointer;
+}
+.item:hover {
+
+  box-shadow: var(--main-shadow-hover);
+}
+.item img {
+  max-width: 100px;
+  max-height: 100px;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+.desc-pic {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 10px;
+  gap: 10px;
+}
+.desc-pic-name {
+  font-family: poppinsBold;
+  font-size: 15px !important;
+  border-bottom: 3px solid var(--fontColor);
+  padding-bottom: 10px;
+}
+.desc-pic-desc {
+  font-family: poppinsRegular;
+  font-size: 12px;
+  line-height: 20px;
+  text-align: justify;
+}
+@media screen and (max-width: 992px) {
+  .item {
+    max-width: 350px;
+  }
+  .posterGames-pic{
+    row-gap: 4rem;
+  }
+}
+@media screen and (max-width: 768px) {
+  .item {
+    max-width: 300px;
+  }
+  .desc-pic-name {
+    font-size: 12px !important;
+  }
+  .desc-pic-desc {
+    font-size: 10.5px;
+  }
+  .posterGames-pic{
+    row-gap: 3rem;
+  }
+}
+@media screen and (max-width:688px) {
+  .posterGames-pic{
+    row-gap: 2rem;
+  }
+  
+}
+@media screen and (max-width: 640px) {
+  .item {
+    max-width: 410px;
+  }
+}
+@media screen and (max-width:480px) {
+  .item img {
+    max-width: 90px;
+    max-height: 90px;
+  }
+  .item {
+    max-width: 380px;
+  }
+  
+}
+@media screen and (max-width:375px) {
+  .item img {
+    max-width: 80px;
+    max-height: 80px;
+  }
+  .item {
+    max-width: 330px;
+  }
+  
+}

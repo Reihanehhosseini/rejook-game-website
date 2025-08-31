@@ -1,0 +1,43 @@
+.form {
+  background-color: var(--buttonColor) !important;
+  box-shadow: var(--main-shadow);
+}
+.form:hover {
+  box-shadow: var(--main-shadow-hover);
+}
+.form textarea {
+  color: var(--fontColor);
+}
+.form textarea::placeholder {
+  font-size: 12px;
+  font-display: flex;
+}
+.form input::placeholder {
+  font-size: 12px;
+}
+.form button {
+  font-size: 13px !important;
+  padding: 0 17px !important;
+}
+.postComment {
+  width: 95% !important;
+  border-bottom: 1px solid var(--gray) !important;
+}
+.emoji-input {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+}
+@media screen and (max-width: 992px) {
+  .form {
+    padding: 17px !important;
+  }
+}
+@media screen and (max-width: 768px) {
+  .form {
+    padding: 13px !important;
+  }
+  .form button {
+    font-size: 9px !important;
+  }
+}

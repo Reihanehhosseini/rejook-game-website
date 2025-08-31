@@ -1,0 +1,48 @@
+.Download svg {
+  width: 200px;
+  
+  cursor: pointer;
+}
+@media screen and (max-width:800px) {
+  .Download svg {
+    width: 170px;
+
+  }
+}
+@media screen and (max-width:688px) {
+  .Download svg {
+    width: 150px;
+
+  }
+}
+@media screen and (max-width:576px) {
+  .Download svg {
+    width: 130px;
+
+  }
+}
+@media screen and (max-width:480px) {
+  .Download svg {
+    width: 110px;
+
+  }
+}
+@media screen and (max-width:400px) {
+  .Download svg {
+    width: 100px;
+
+  }
+}
+@media screen and (max-width:376px) {
+  .Download svg {
+    width: 95px;
+
+  }
+}
+@media screen and (max-width:345px) {
+  .Download svg {
+    width: 90px;
+
+  }
+}
+

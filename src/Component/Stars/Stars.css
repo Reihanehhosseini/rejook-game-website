@@ -1,0 +1,7 @@
+.stars{
+    display: flex;
+    flex-direction: column;
+}
+.stars svg{
+    stroke: #000;
+}

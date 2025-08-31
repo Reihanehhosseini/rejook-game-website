@@ -1,0 +1,27 @@
+.Company{
+    background-color: var(--orange);
+    margin: 25px 0;
+    padding: 20px 0 ;
+    display: flex;
+    justify-content: space-between;
+}
+.company-item{
+    color: #000;
+    font-family: PressStart;
+    margin-left: 15px;
+}
+@media screen and (max-width:768px) {
+    .company-item{
+        font-size: 13px;
+    }
+}
+@media screen and (max-width:577px) {
+    .company-item{
+        font-size: 10px;
+    }
+}
+@media screen and (max-width:480px) {
+.Company{
+    margin: 17px 0;
+}
+}

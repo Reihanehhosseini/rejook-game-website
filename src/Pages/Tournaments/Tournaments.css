@@ -1,0 +1,200 @@
+.Tournaments {
+  width: 100%;
+  position: relative;
+  text-align: center;
+  padding-top: 50px;
+}
+.Tournaments-bg-top {
+  background-image: url("../../../public/img/Events/waveTop.png");
+  width: 100%;
+  height: 500px;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: absolute;
+  top: 0;
+  z-index: -5;
+}
+.Tournaments-bg {
+  background-image: url("../../../public/img/Events/dibaipng1.png");
+  width: 100%;
+  height: 500px;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  z-index: -5;
+}
+.Tournaments-header {
+  display: flex;
+  justify-content: center;
+}
+.Tournaments-header-title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.Tournaments-header-title h1 {
+  font-size: 35px;
+  color: #c65316;
+  font-family: poppinsBold;
+  font-weight: 1000;
+}
+.Tournaments-header-title h1:last-child {
+  font-size: 100px;
+  margin-top: 15px;
+  color: var(--blue-dark);
+}
+@media screen and (max-width: 1265px) {
+  .Tournaments-header-title h1 {
+    font-size: 30px;
+  }
+  .Tournaments-header-title h1:last-child {
+    font-size: 70px;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .Tournaments-header-title h1 {
+    font-size: 28px;
+  }
+  .Tournaments-header-title h1:last-child {
+    font-size: 60px;
+  }
+  .Tournaments-header-img img {
+    width: 450px;
+  }
+  .Tournaments-bg{
+    height: 325px;
+  }
+}
+@media screen and (max-width: 992px) {
+  .Tournaments-header-title h1 {
+    font-size: 26px;
+  }
+  .Tournaments-header-title h1:last-child {
+    font-size: 50px;
+  }
+  .Tournaments-bg{
+    height: 275px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .Tournaments {
+    padding-top: 0;
+  }
+  .Tournaments-header-title {
+    margin-top: 35px;
+  }
+  .Tournaments-header-title h1 {
+    font-size: 24.5px;
+  }
+  .Tournaments-header-title h1:last-child {
+    font-size: 48px;
+  }
+  .Tournaments-header-img img {
+    width: 400px;
+    height: 350px;
+  }
+  .Tournaments-bg{
+    height: 200px;
+  }
+}
+@media screen and (max-width: 688px) {
+  .Tournaments-header-img img {
+    width: 350px;
+    height: 300px;
+  }
+  .Tournaments-bg{
+    height: 180px;
+  }
+}
+@media screen and (max-width: 577px) {
+  .Tournaments-header-title h1 {
+    font-size: 23px;
+  }
+  .Tournaments-header-title h1:last-child {
+    font-size: 43.5px;
+  }
+  .Tournaments-header-img img {
+    width: 310px;
+    height: 280px;
+  }
+  .Tournaments-header {
+    padding-right: 5px;
+  }
+  .Tournaments-bg{
+    height: 153px;
+  }
+}
+@media screen and (max-width: 510px) {
+  .Tournaments-header-title h1 {
+    font-size: 20px;
+  }
+  .Tournaments-header-title h1:last-child {
+    font-size: 41px;
+  }
+  .Tournaments-header-img img {
+    width: 290px;
+    height: 260px;
+  }
+}
+@media screen and (max-width: 480px) {
+  .Tournaments-header-title h1:last-child {
+    font-size: 36px;
+  }
+  .Tournaments-header-img img {
+    width: 250px;
+    height: 210px;
+  }
+  .Tournaments{
+    padding-top: 27px;
+  }
+}
+@media screen and (max-width: 465px) {
+  .Tournaments-header-title h1:last-child {
+    font-size: 30px;
+  }
+  .Tournaments-header-img img {
+    width: 210px;
+    height: 180px;
+  }
+}
+@media screen and (max-width: 430px) {
+    .Tournaments {
+        padding-top: 15px;
+      }
+      .Tournaments-header{
+        flex-direction: column;
+      }
+      .Tournaments-header-title{
+        margin-top: 0;
+      }
+      .Tournaments-header-img img{
+        width: 350px;
+        height: 270px;
+      }
+      .Tournaments-header-title h1:last-child{
+        margin-top: 0;
+        font-size: 35px;
+      }
+      .Tournaments-header-title h1{
+        font-size: 21.5px;
+      }
+
+ 
+
+}
+@media screen and (max-width: 374px) {
+
+      .Tournaments-header-img img{
+        width: 300px;
+        height: 240px;
+      }
+
+
+ 
+
+}

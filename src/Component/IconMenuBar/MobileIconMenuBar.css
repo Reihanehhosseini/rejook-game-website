@@ -1,0 +1,33 @@
+.MobileIconMenuBar{
+    display: flex;
+    align-items: center;
+    padding: 0 20px;
+  
+}
+
+@media screen and (max-width: 688px) {
+  .MobileIconMenuBar{
+    padding: 0 10px;
+  }
+    .IconMenuBar {
+      display: flex;
+      align-items: center;
+      justify-content: left;
+    }
+    .IconMenuBar-title {
+      transform: translateX(0) translateY(0);
+      -webkit-transform: translateX(0) translateY(0);
+      -moz-transform: translateX(0) translateY(0);
+      -ms-transform: translateX(0) translateY(0);
+      -o-transform: translateX(0) translateY(0);
+      opacity: 1;
+      pointer-events: visible;
+      visibility: visible;
+      background-color: inherit;
+      border: none;
+      position: static;
+    }
+    .IconMenuBar:first-child {
+      margin-bottom: 0;
+    }
+  }

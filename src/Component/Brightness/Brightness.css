@@ -1,0 +1,14 @@
+.brightness-icon {
+  margin-right: 50px;
+  cursor: pointer;
+}
+
+.brightnes-span {
+  font-family: "poppinsRegular" !important;
+  font-size: 8px;
+}
+@media screen and (max-width: 800px) {
+  .brightness-icon {
+    margin-right: 0;
+  }
+}
