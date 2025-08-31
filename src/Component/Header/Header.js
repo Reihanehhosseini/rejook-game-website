@@ -110,7 +110,7 @@ export default function Header() {
         </div>
       </div>
       <div className="LogoHeader">
-        <img src="/img/REJOOK-.png" className="logo" />
+        <img src="./img/REJOOK-.png" className="logo" />
         <span>Rejook</span>
       </div>
       <div className="inputHeader">

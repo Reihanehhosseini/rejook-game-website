@@ -20,7 +20,7 @@ export default function MainSection() {
           <br />
           <Button title="Browse Games"/>
         </div>
-        <img className="mainsection-img" src="img/Games/Amoung_us2.png" alt="" data-aos="fade-up"/>
+        <img className="mainsection-img" src="./img/Games/Amoung_us2.png" alt="" data-aos="fade-up"/>
       </div>
     </div>
   );
