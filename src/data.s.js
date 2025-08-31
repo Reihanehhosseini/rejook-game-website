@@ -82,11 +82,11 @@ export let oldGames = [
   {
     id: 1,
     name: "Cut the Rope",
-    bgimg: "/img/play/cut the rope.jpg",
-    icon: "/img/play/Om Nom.png",
+    bgimg: "./img/play/cut the rope.jpg",
+    icon: "./img/play/Om Nom.png",
     img: [
-      "/img/populargames/cuttherope2.png",
-      "/img/populargames/cuttherope.png",
+      "./img/populargames/cuttherope2.png",
+      "./img/populargames/cuttherope.png",
     ],
     desc: "Slove clever puzzles by cutting ropes to feed candy to the adorable monster, Om Nom",
     rate: 4.6,
@@ -103,11 +103,11 @@ export let oldGames = [
   {
     id: 2,
     name: "Where is my Water?",
-    bgimg: "/img/play/wmwbg.jpg",
-    icon: "/img/play/wmwicon.png",
+    bgimg: "./img/play/wmwbg.jpg",
+    icon: "./img/play/wmwicon.png",
     img: [
-      "/img/populargames/where is my water2.jpg",
-      "/img/populargames/where is my water.png",
+      "./img/populargames/where is my water2.jpg",
+      "./img/populargames/where is my water.png",
     ],
     desc: "Get ready to join Swampy, Allie, and Cranky on their NEXT exciting adventure!",
     rate: 4.5,
@@ -124,11 +124,11 @@ export let oldGames = [
   {
     id: 3,
     name: "Angry birds",
-    bgimg: "/img/play/angree birds.jpg",
-    icon: "/img/play/angribirdicon.png",
+    bgimg: "./img/play/angree birds.jpg",
+    icon: "./img/play/angribirdicon.png",
     img: [
-      "/img/populargames/angrybirds2.jpg",
-      "/img/populargames/angrybirds.png",
+      "./img/populargames/angrybirds2.jpg",
+      "./img/populargames/angrybirds.png",
     ],
     desc: "Launch angry birds to defeat the mischievous pigs and save the eggs!",
     rate: 4.5,
@@ -146,11 +146,11 @@ export let oldGames = [
   {
     id: 4,
     name: "Fruit Ninja",
-    bgimg: "/img/play/fruitninjabg2.jpg",
-    icon: "/img/play/fruitninjaicon.png",
+    bgimg: "./img/play/fruitninjabg2.jpg",
+    icon: "./img/play/fruitninjaicon.png",
     img: [
-      "/img/populargames/fruitninja2.png",
-      "/img/populargames/fruitninja.png",
+      "./img/populargames/fruitninja2.png",
+      "./img/populargames/fruitninja.png",
     ],
     desc: "Slice fruits with speed and precision experiencing the thrill in every momnent.",
     rate: 3.9,
@@ -168,13 +168,13 @@ export let oldGames = [
   {
     id: 5,
     name: "Pack-Man",
-    bgimg: "/img/play/pack-man.png",
-    icon: "/img/play/packman2.png",
-    img: ["/img/populargames/packman2.jpg", "/img/populargames/pack-man.png"],
+    bgimg: "./img/play/pack-man.png",
+    icon: "./img/play/packman2.png",
+    img: ["./img/populargames/packman2.jpg", "./img/populargames/pack-man.png"],
     desc: "Guide Pack-Man through a maze, gobbling pellets and doodging colorful ghosts to rack up the highest score",
     rate: 4.6,
     year: 1980,
-    video:"/img/play/pack-man.mp4",
+    video:"./img/play/pack-man.mp4",
     company: ". Namco ",
     Logo: "img/Company/namco.png",
     fact: "Pack-Man design was inspired by a pizza with one slice missing.",
@@ -187,16 +187,16 @@ export let oldGames = [
   {
     id: 6,
     name: "Doodle Jump",
-    bgimg: "/img/play/doodlejumpbg.jpg",
-    icon: "/img/play/doodlejumpicon2.png",
+    bgimg: "./img/play/doodlejumpbg.jpg",
+    icon: "./img/play/doodlejumpicon2.png",
     img: [
-      "/img/populargames/doodlejump2.jpg",
-      "/img/populargames/doodlejump.png",
+      "./img/populargames/doodlejump2.jpg",
+      "./img/populargames/doodlejump.png",
     ],
     desc: "One of the hottest mobile games of all time! Easy to pick up and play. Wildly addictive.",
     rate: 4.6,
     year: 2009,
-    video:"/img/play/Doodle Jump Trim.mp4",
+    video:"./img/play/Doodle Jump Trim.mp4",
     company: ". Lima Sky ",
     Logo: "img/Company/limasky.png",
     fact: "Doodle Jump sold an average of 25,000 copies per day in its early days.",
@@ -216,13 +216,13 @@ export let Games = [
     genre: "Action . Runner . Arcade",
     video:
       "https://play-games.googleusercontent.com/vp/mp4/1280x720/rysvKlaG3TU.mp4",
-    img: "/img/ActionGames/SubwaySurferIcon.jpg",
-    bgimg: "/img/ActionGames/Subway Surfer3.jpg",
+    img: "./img/ActionGames/SubwaySurferIcon.jpg",
+    bgimg: "./img/ActionGames/Subway Surfer3.jpg",
     imgcard: [
-      "/img/ActionGames/Subway Surfer2.jpg",
-      "/img/ActionGames/Subway Surfer4.jpg",
-      "/img/ActionGames/Subway Surfer5.jpg",
-      "/img/ActionGames/Subway Surfer6.jpg",
+      "./img/ActionGames/Subway Surfer2.jpg",
+      "./img/ActionGames/Subway Surfer4.jpg",
+      "./img/ActionGames/Subway Surfer5.jpg",
+      "./img/ActionGames/Subway Surfer6.jpg",
     ],
     desc: "Help Jake, Tricky & Fresh escape from the grumpy Guard and his dog.",
     about:
@@ -271,12 +271,12 @@ export let Games = [
     genre: "Action . Runner . Arcade",
     video:
       "https://play-games.googleusercontent.com/vp/mp4/1280x720/k5LRsXWDKr4.mp4",
-    img: "/img/ActionGames/Temple Run.png",
-    bgimg: "/img/ActionGames/temple runbg.jpg",
+    img: "./img/ActionGames/Temple Run.png",
+    bgimg: "./img/ActionGames/temple runbg.jpg",
     imgcard: [
-      "/img/ActionGames/Temple Run2.png",
-      "/img/ActionGames/Temple Run3.png",
-      "/img/ActionGames/Temple Run4.png",
+      "./img/ActionGames/Temple Run2.png",
+      "./img/ActionGames/Temple Run3.png",
+      "./img/ActionGames/Temple Run4.png",
     ],
     desc: "The Ultimate Endless Runner Adventure",
     about:
@@ -325,12 +325,12 @@ export let Games = [
     genre: "Action . Strategy . MultiPlayer",
     video:
       "https://play-games.googleusercontent.com/vp/mp4/1280x720/Hq8F7kB6BJU.mp4",
-    img: "/img/ActionGames/suspect.jpg",
-    bgimg: "/img/ActionGames/suspectbg2.png",
+    img: "./img/ActionGames/suspect.jpg",
+    bgimg: "./img/ActionGames/suspectbg2.png",
     imgcard: [
-      "/img/ActionGames/suspect3.png",
-      "/img/ActionGames/suspect5.png",
-      "/img/ActionGames/suspect4.png",
+      "./img/ActionGames/suspect3.png",
+      "./img/ActionGames/suspect5.png",
+      "./img/ActionGames/suspect4.png",
     ],
     desc: "You have been invited to solve a murder mystery at the mansion!",
     about:
@@ -379,12 +379,12 @@ export let Games = [
     genre: "Action . Strategy . MultiPlayer",
     video:
       "https://play-games.googleusercontent.com/vp/mp4/1280x720/8QSyEOICYSo.mp4",
-    img: "/img/ActionGames/amoung4.jpg",
-    bgimg: "/img/ActionGames/Amoung us.png",
+    img: "./img/ActionGames/amoung4.jpg",
+    bgimg: "./img/ActionGames/Amoung us.png",
     imgcard: [
-      "/img/ActionGames/amoungus2.jpg",
-      "/img/ActionGames/amoungus33.jpg",
-      "/img/ActionGames/amoungus3.png",
+      "./img/ActionGames/amoungus2.jpg",
+      "./img/ActionGames/amoungus33.jpg",
+      "./img/ActionGames/amoungus3.png",
     ],
     desc: "Fix the ship, throw your friends into space. All in a day work",
     about:
@@ -433,12 +433,12 @@ export let Games = [
     genre: "Action . Platformer . Abstract",
     video:
       "https://play-games.googleusercontent.com/vp/mp4/1280x720/pv1OtS5TZRs.mp4",
-    img: "/img/ActionGames/leveldevil2.png",
-    bgimg: "/img/ActionGames/leveldevil.png",
+    img: "./img/ActionGames/leveldevil2.png",
+    bgimg: "./img/ActionGames/leveldevil.png",
     imgcard: [
-      "/img/ActionGames/leveldevil4.jpg",
-      "/img/ActionGames/leveldevil5.png",
-      "/img/ActionGames/leveldevil6.png",
+      "./img/ActionGames/leveldevil4.jpg",
+      "./img/ActionGames/leveldevil5.png",
+      "./img/ActionGames/leveldevil6.png",
     ],
     desc: "Trust nothing. Hate everything. Welcome to Level Devil",
     about:
@@ -487,12 +487,12 @@ export let Games = [
     genre: "Action . Racing . Casual",
     video:
       "https://play-games.googleusercontent.com/vp/mp4/1280x720/d7GDbVbksa8.mp4",
-    img: "/img/ActionGames/hcr2.png",
-    bgimg: "/img/ActionGames/hcrbg.jpg",
+    img: "./img/ActionGames/hcr2.png",
+    bgimg: "./img/ActionGames/hcrbg.jpg",
     imgcard: [
-      "/img/ActionGames/hcr.jpg",
-      "/img/ActionGames/hcr3.jpg",
-      "/img/ActionGames/hcr4.png",
+      "./img/ActionGames/hcr.jpg",
+      "./img/ActionGames/hcr3.jpg",
+      "./img/ActionGames/hcr4.png",
     ],
     desc: "Race uphill in crazy vehicles, collect coins, and defy gravity in this fun physics-based driving game!",
     about:
@@ -541,12 +541,12 @@ export let Games = [
     genre: "Action . Runner . Arcade",
     video:
       "https://play-games.googleusercontent.com/vp/mp4/1280x720/Fk8h6dF_O4Q.mp4",
-    img: "/img/ActionGames/bananakong3.jpg",
-    bgimg: "/img/ActionGames/banana kong.png",
+    img: "./img/ActionGames/bananakong3.jpg",
+    bgimg: "./img/ActionGames/banana kong.png",
     imgcard: [
-      "/img/ActionGames/banana kong2.png",
-      "/img/ActionGames/banana kong4.png",
-      "/img/ActionGames/banana kong5.png",
+      "./img/ActionGames/banana kong2.png",
+      "./img/ActionGames/banana kong4.png",
+      "./img/ActionGames/banana kong5.png",
     ],
     desc: "Run, jump, bounce and swing on vines while traversing *new* forests, caves, treetops, lagoons and even the north pole!",
     about:
@@ -595,12 +595,12 @@ export let Games = [
     genre: "Action . Strategy . Casual . Army",
     video:
       "https://play-games.googleusercontent.com/vp/mp4/1280x720/eBop2FTGBgM.mp4",
-    img: "/img/ActionGames/kingdom rush.jpg",
-    bgimg: "/img/ActionGames/kingdom rush2.jpg",
+    img: "./img/ActionGames/kingdom rush.jpg",
+    bgimg: "./img/ActionGames/kingdom rush2.jpg",
     imgcard: [
-      "/img/ActionGames/kingdom rush3.jpg",
-      "/img/ActionGames/kingdom rush4.png",
-      "/img/ActionGames/kingdom rush5.png",
+      "./img/ActionGames/kingdom rush3.jpg",
+      "./img/ActionGames/kingdom rush4.png",
+      "./img/ActionGames/kingdom rush5.png",
     ],
     desc: "Defend your kingdom in this epic tower defense game full of strategy and action!",
     about:
@@ -649,12 +649,12 @@ export let Games = [
     genre: "Action . Shooter . Casual",
     video:
       "https://play-games.googleusercontent.com/vp/mp4/1280x720/FLjeDkDFOTs.mp4",
-    img: "/img/ActionGames/gumslinger2.jpg",
-    bgimg: "/img/ActionGames/gumslingerbg.png",
+    img: "./img/ActionGames/gumslinger2.jpg",
+    bgimg: "./img/ActionGames/gumslingerbg.png",
     imgcard: [
-      "/img/ActionGames/gumslinger.jpg",
-      "/img/ActionGames/gumslinger3.png",
-      "/img/ActionGames/gumslinger4.png",
+      "./img/ActionGames/gumslinger.jpg",
+      "./img/ActionGames/gumslinger3.png",
+      "./img/ActionGames/gumslinger4.png",
     ],
     desc: "A gummy candy world of intense shootouts, amazing skillshots and crazy fun gunplay missions. ",
     about:
@@ -703,12 +703,12 @@ export let Games = [
     genre: "Puzzle . Casual . Food",
     video:
       "https://play-games.googleusercontent.com/vp/mp4/1280x720/dmSuqklZT9I.mp4",
-    img: "/img/ActionGames/candyicon.png",
-    bgimg: "/img/ActionGames/canducrushbg.jpg",
+    img: "./img/ActionGames/candyicon.png",
+    bgimg: "./img/ActionGames/canducrushbg.jpg",
     imgcard: [
-      "/img/ActionGames/candycrush1.jpg",
-      "/img/ActionGames/candycrush2.jpg",
-      "/img/ActionGames/candycrush3.jpg",
+      "./img/ActionGames/candycrush1.jpg",
+      "./img/ActionGames/candycrush2.jpg",
+      "./img/ActionGames/candycrush3.jpg",
     ],
     desc: "Candu Crush is a match-three puzzle game where you align candies of the same color to clear them and score points ",
     about:
@@ -757,12 +757,12 @@ export let Games = [
     genre: "Puzzle . Casual . Block",
     video:
       "https://play-games.googleusercontent.com/vp/mp4/1280x720/WnXrMbd-u8A.mp4",
-    img: "/img/ActionGames/tetrisicon.png",
-    bgimg: "/img/ActionGames/canducrushbg.jpg",
+    img: "./img/ActionGames/tetrisicon.png",
+    bgimg: "./img/ActionGames/canducrushbg.jpg",
     imgcard: [
-      "/img/ActionGames/candycrush1.jpg",
-      "/img/ActionGames/candycrush2.jpg",
-      "/img/ActionGames/candycrush3.jpg",
+      "./img/ActionGames/candycrush1.jpg",
+      "./img/ActionGames/candycrush2.jpg",
+      "./img/ActionGames/candycrush3.jpg",
     ],
     desc: "Candu Crush is a match-three puzzle game where you align candies of the same color to clear them and score points ",
     about:
@@ -811,12 +811,12 @@ export let Games = [
     genre: "Puzzle . Casual . Logic",
     video:
       "https://play-games.googleusercontent.com/vp/mp4/1280x720/Me4ymG_vnOE.mp4",
-    img: "/img/ActionGames/Monument_Valley_icon.jpg",
-    bgimg: "/img/ActionGames/Monumentvalleybg.png",
+    img: "./img/ActionGames/Monument_Valley_icon.jpg",
+    bgimg: "./img/ActionGames/Monumentvalleybg.png",
     imgcard: [
-      "/img/ActionGames/Monumentvalley.png",
-      "/img/ActionGames/Monumentvalley2.png",
-      "/img/ActionGames/Monumentvalley3.png",
+      "./img/ActionGames/Monumentvalley.png",
+      "./img/ActionGames/Monumentvalley2.png",
+      "./img/ActionGames/Monumentvalley3.png",
     ],
     desc: "Monument valley is a puzzle game of optical illusions and impossible paths ",
     about:
@@ -865,12 +865,12 @@ export let Games = [
     genre: "Puzzle . Casual . Logic",
     video:
       "https://play-games.googleusercontent.com/vp/mp4/1280x720/CMaRxNpXCCE.mp4",
-    img: "/img/ActionGames/cuticon.png",
-    bgimg: "/img/ActionGames/cutbg.jpg",
+    img: "./img/ActionGames/cuticon.png",
+    bgimg: "./img/ActionGames/cutbg.jpg",
     imgcard: [
-      "/img/ActionGames/cut1.jpg",
-      "/img/ActionGames/cut2.jpg",
-      "/img/ActionGames/cut3.jpg",
+      "./img/ActionGames/cut1.jpg",
+      "./img/ActionGames/cut2.jpg",
+      "./img/ActionGames/cut3.jpg",
     ],
     desc: "cut the Rope is a physics-based puzzle game where you cut ropes to feed candy to a cute monster",
     about:
@@ -919,12 +919,12 @@ export let Games = [
     genre: "Puzzle . Animals . Physics",
     video:
       "https://play-games.googleusercontent.com/vp/mp4/1280x720/dSg_iqQpKYA.mp4",
-    img: "/img/ActionGames/angrybirdicon.png",
-    bgimg: "/img/ActionGames/angrybirdbg.jpg",
+    img: "./img/ActionGames/angrybirdicon.png",
+    bgimg: "./img/ActionGames/angrybirdbg.jpg",
     imgcard: [
-      "/img/ActionGames/angrybird1.png",
-      "/img/ActionGames/angrybird2.png",
-      "/img/ActionGames/angrybird3.png",
+      "./img/ActionGames/angrybird1.png",
+      "./img/ActionGames/angrybird2.png",
+      "./img/ActionGames/angrybird3.png",
     ],
     desc: "Angry Birds is a slingshot game where you launch birds to destroy pigs structures",
     about:
@@ -973,12 +973,12 @@ export let Games = [
     genre: "Puzzle . Advanture . Casual",
     video:
       "https://play-games.googleusercontent.com/vp/mp4/1280x720/h-NdQSeTPfA.mp4",
-    img: "/img/ActionGames/roomicon.png",
-    bgimg: "/img/ActionGames/roombg.jpg",
+    img: "./img/ActionGames/roomicon.png",
+    bgimg: "./img/ActionGames/roombg.jpg",
     imgcard: [
-      "/img/ActionGames/room1.png",
-      "/img/ActionGames/room2.png",
-      "/img/ActionGames/room3.png",
+      "./img/ActionGames/room1.png",
+      "./img/ActionGames/room2.png",
+      "./img/ActionGames/room3.png",
     ],
     desc: "The Room is a puzzle game where you slove intricate 3D mysteries inside detailed boxes",
     about:
@@ -1027,12 +1027,12 @@ export let Games = [
     genre: "Puzzle . Platformer . Offline",
     video:
       "https://play-games.googleusercontent.com/vp/mp4/1280x720/VUxKRANpXwY.mp4",
-    img: "/img/ActionGames/humanicon.png",
-    bgimg: "/img/ActionGames/humanbg.jpg",
+    img: "./img/ActionGames/humanicon.png",
+    bgimg: "./img/ActionGames/humanbg.jpg",
     imgcard: [
-      "/img/ActionGames/human1.png",
-      "/img/ActionGames/human2.png",
-      "/img/ActionGames/human3.png",
+      "./img/ActionGames/human1.png",
+      "./img/ActionGames/human2.png",
+      "./img/ActionGames/human3.png",
     ],
     desc: "Human: Fall Flat is a physics-based puzzle game where wobbly charecters solve challenges through hilarious movement",
     about:
@@ -1081,12 +1081,12 @@ export let Games = [
     genre: "Puzzle . Escape . Mystery",
     video:
       "https://play-games.googleusercontent.com/vp/mp4/1280x720/sSDHbbzJJ1o.mp4",
-    img: "/img/ActionGames/mysteryicon.png",
-    bgimg: "/img/ActionGames/mysterybg.jpg",
+    img: "./img/ActionGames/mysteryicon.png",
+    bgimg: "./img/ActionGames/mysterybg.jpg",
     imgcard: [
-      "/img/ActionGames/mystery1.jpg",
-      "/img/ActionGames/mystery2.jpg",
-      "/img/ActionGames/mystery3.jpg",
+      "./img/ActionGames/mystery1.jpg",
+      "./img/ActionGames/mystery2.jpg",
+      "./img/ActionGames/mystery3.jpg",
     ],
     desc: "Escape Time Fun Brain Games is a puzzle escape game where you slove tricky challenges to break out of rooms",
     about:
@@ -1135,12 +1135,12 @@ export let Games = [
     genre: "Puzzle . Casual . Cartoon",
     video:
       "https://play-games.googleusercontent.com/vp/mp4/1280x720/njwCvBuI6EE.mp4",
-    img: "/img/ActionGames/matchicon.png",
-    bgimg: "/img/ActionGames/matchbg.png",
+    img: "./img/ActionGames/matchicon.png",
+    bgimg: "./img/ActionGames/matchbg.png",
     imgcard: [
-      "/img/ActionGames/match1.png",
-      "/img/ActionGames/match2.png",
-      "/img/ActionGames/match3.png",
+      "./img/ActionGames/match1.png",
+      "./img/ActionGames/match2.png",
+      "./img/ActionGames/match3.png",
     ],
     desc: "Match 3 Puzzle games - reinvented! Now with online PvP multiplayer!",
     about:
@@ -1189,12 +1189,12 @@ export let Games = [
     genre: "Sport . Casual . Tennis",
     video:
       "https://play-games.googleusercontent.com/vp/mp4/1280x720/H43S_MitpF8.mp4",
-    img: "/img/ActionGames/tennisicon.jpg",
-    bgimg: "/img/ActionGames/tennis-clashbg.jpg",
+    img: "./img/ActionGames/tennisicon.jpg",
+    bgimg: "./img/ActionGames/tennis-clashbg.jpg",
     imgcard: [
-      "/img/ActionGames/tennis1.jpg",
-      "/img/ActionGames/tennis2.jpg",
-      "/img/ActionGames/tennis3.jpg",
+      "./img/ActionGames/tennis1.jpg",
+      "./img/ActionGames/tennis2.jpg",
+      "./img/ActionGames/tennis3.jpg",
     ],
     desc: "🎾 Welcome to Tennis Clash: The Ultimate Online Multiplayer Tennis Game 🎾",
     about:
@@ -1243,12 +1243,12 @@ export let Games = [
     genre: "Sport . Casual . Soccer",
     video:
       "https://play-games.googleusercontent.com/vp/mp4/1280x720/6GwS90gwLig.mp4",
-    img: "/img/ActionGames/soccericon.png",
-    bgimg: "/img/ActionGames/soccerbg.png",
+    img: "./img/ActionGames/soccericon.png",
+    bgimg: "./img/ActionGames/soccerbg.png",
     imgcard: [
-      "/img/ActionGames/soccer1.png",
-      "/img/ActionGames/soccer2.png",
-      "/img/ActionGames/soccer3.png",
+      "./img/ActionGames/soccer1.png",
+      "./img/ActionGames/soccer2.png",
+      "./img/ActionGames/soccer3.png",
     ],
     desc: "Soccer SuperStar is a mobile football game where you swipe to pass, shoot, and score goals",
     about:
@@ -1297,12 +1297,12 @@ export let Games = [
     genre: "Sport . Casual . Soccer",
     video:
       "https://play-games.googleusercontent.com/vp/mp4/1280x720/MkKWx0uVyRw.mp4",
-    img: "/img/ActionGames/ballpoolicon.png",
-    bgimg: "/img/ActionGames/ballpoolbg.jpg",
+    img: "./img/ActionGames/ballpoolicon.png",
+    bgimg: "./img/ActionGames/ballpoolbg.jpg",
     imgcard: [
-      "/img/ActionGames/ballpool1.png",
-      "/img/ActionGames/ballpool2.png",
-      "/img/ActionGames/ballpool3.png",
+      "./img/ActionGames/ballpool1.png",
+      "./img/ActionGames/ballpool2.png",
+      "./img/ActionGames/ballpool3.png",
     ],
     desc: "8 Ball Pool is an addictive challenging game based on real 3D pool games, where you will challenge your friends online. Become a master of the pool!",
     about:
@@ -1351,12 +1351,12 @@ export let Games = [
     genre: "Sport . Casual . Prkour",
     video:
       "https://play-games.googleusercontent.com/vp/mp4/1280x720/vAbN2dIdOvE.mp4",
-    img: "/img/ActionGames/vectoricon.png",
-    bgimg: "/img/ActionGames/vectorbg.png",
+    img: "./img/ActionGames/vectoricon.png",
+    bgimg: "./img/ActionGames/vectorbg.png",
     imgcard: [
-      "/img/ActionGames/vector1.png",
-      "/img/ActionGames/vector2.png",
-      "/img/ActionGames/vector3.png",
+      "./img/ActionGames/vector1.png",
+      "./img/ActionGames/vector2.png",
+      "./img/ActionGames/vector3.png",
     ],
     desc: "Vector is a parkour-style action game where you run, jump and climb to escape pursuit",
     about:
@@ -1405,12 +1405,12 @@ export let Games = [
     genre: "Sport . Casual . Baseball",
     video:
       "https://play-games.googleusercontent.com/vp/mp4/1280x720/f8d8LpagbVg.mp4",
-    img: "/img/ActionGames/baseballicon.png",
-    bgimg: "/img/ActionGames/baseballbg.jpg",
+    img: "./img/ActionGames/baseballicon.png",
+    bgimg: "./img/ActionGames/baseballbg.jpg",
     imgcard: [
-      "/img/ActionGames/baseball1.png",
-      "/img/ActionGames/baseball2.png",
-      "/img/ActionGames/baseball3.png",
+      "./img/ActionGames/baseball1.png",
+      "./img/ActionGames/baseball2.png",
+      "./img/ActionGames/baseball3.png",
     ],
     desc: "Play BASEBALL NINE to become the Legend League Champion!",
     about:
@@ -1459,12 +1459,12 @@ export let Games = [
     genre: "Sport . Casual . Billiard",
     video:
       "https://play-games.googleusercontent.com/vp/mp4/1280x720/2GtT-ZNr_q4.mp4",
-    img: "/img/ActionGames/billiardicon.png",
-    bgimg: "/img/ActionGames/billiardbg.jpg",
+    img: "./img/ActionGames/billiardicon.png",
+    bgimg: "./img/ActionGames/billiardbg.jpg",
     imgcard: [
-      "/img/ActionGames/billiard1.jpg",
-      "/img/ActionGames/billiard2.jpg",
-      "/img/ActionGames/billiard3.png",
+      "./img/ActionGames/billiard1.jpg",
+      "./img/ActionGames/billiard2.jpg",
+      "./img/ActionGames/billiard3.png",
     ],
     desc: "Billiards City is a modern arcade style pool game with single player, If you love a relaxed game of 8 ball, this is the game for you!",
     about:
@@ -1513,12 +1513,12 @@ export let Games = [
     genre: "Sport . Casual . Volleyball",
     video:
       "https://play-games.googleusercontent.com/vp/mp4/1280x720/I5-3lmFbaZs.mp4",
-    img: "/img/ActionGames/volleyballicon.png",
-    bgimg: "/img/ActionGames/volleyballbg.png",
+    img: "./img/ActionGames/volleyballicon.png",
+    bgimg: "./img/ActionGames/volleyballbg.png",
     imgcard: [
-      "/img/ActionGames/volleyball1.png",
-      "/img/ActionGames/volleyball2.png",
-      "/img/ActionGames/volleyball3.png",
+      "./img/ActionGames/volleyball1.png",
+      "./img/ActionGames/volleyball2.png",
+      "./img/ActionGames/volleyball3.png",
     ],
     desc: "Pick Up and Play!",
     about:
@@ -1567,12 +1567,12 @@ export let Games = [
     genre: "Sport . Casual . Board",
     video:
       "https://play-games.googleusercontent.com/vp/mp4/1280x720/1lX_YUvelBk.mp4",
-    img: "/img/ActionGames/chessicon.jpg",
-    bgimg: "/img/ActionGames/chessbg.jpg",
+    img: "./img/ActionGames/chessicon.jpg",
+    bgimg: "./img/ActionGames/chessbg.jpg",
     imgcard: [
-      "/img/ActionGames/chess1.jpg",
-      "/img/ActionGames/chess2.png",
-      "/img/ActionGames/chess3.jpg",
+      "./img/ActionGames/chess1.jpg",
+      "./img/ActionGames/chess2.png",
+      "./img/ActionGames/chess3.jpg",
     ],
     desc: "Experience the Ultimate Chess App - Free to Install and Play!",
     about:
@@ -1621,12 +1621,12 @@ export let Games = [
     genre: "Sport . Casual . BasketBall",
     video:
       "https://play-games.googleusercontent.com/vp/mp4/1280x720/wc_LGbrvV9k.mp4",
-    img: "/img/ActionGames/basketballicon.png",
-    bgimg: "/img/ActionGames/basketballbg.png",
+    img: "./img/ActionGames/basketballicon.png",
+    bgimg: "./img/ActionGames/basketballbg.png",
     imgcard: [
-      "/img/ActionGames/basketball1.png",
-      "/img/ActionGames/basketball2.png",
-      "/img/ActionGames/basketball3.png",
+      "./img/ActionGames/basketball1.png",
+      "./img/ActionGames/basketball2.png",
+      "./img/ActionGames/basketball3.png",
     ],
     desc: "From the creators of multiple smash-hit online multiplayer sports games!",
     about:
@@ -1675,12 +1675,12 @@ export let Games = [
     genre: "Card . Card Battler . Offline",
     video:
       "https://play-games.googleusercontent.com/vp/mp4/1280x720/REK1SwKmPNc.mp4",
-    img: "/img/ActionGames/crawlicon.png",
-    bgimg: "/img/ActionGames/crawlbg.png",
+    img: "./img/ActionGames/crawlicon.png",
+    bgimg: "./img/ActionGames/crawlbg.png",
     imgcard: [
-      "/img/ActionGames/crawl1.png",
-      "/img/ActionGames/crawl2.png",
-      "/img/ActionGames/crawl3.png",
+      "./img/ActionGames/crawl1.png",
+      "./img/ActionGames/crawl2.png",
+      "./img/ActionGames/crawl3.png",
     ],
     desc: "Card Crawl Adventure is a solitaire style roguelike deckbuilding card game.",
     about:
@@ -1729,12 +1729,12 @@ export let Games = [
     genre: "Card . Card Battler . Fantasy",
     video:
       "https://play-games.googleusercontent.com/vp/mp4/1280x720/ZIQ2KWnKP7I.mp4",
-    img: "/img/ActionGames/gwenticon.png",
-    bgimg: "/img/ActionGames/gwentbg.png",
+    img: "./img/ActionGames/gwenticon.png",
+    bgimg: "./img/ActionGames/gwentbg.png",
     imgcard: [
-      "/img/ActionGames/gwent13.png",
-      "/img/ActionGames/gwent2.png",
-      "/img/ActionGames/gwent3.png",
+      "./img/ActionGames/gwent13.png",
+      "./img/ActionGames/gwent2.png",
+      "./img/ActionGames/gwent3.png",
     ],
     desc: "Join in The Witcher universe’s favorite card game — available for free!",
     about:
@@ -1783,12 +1783,12 @@ export let Games = [
     genre: "Card . Card Battler . Fantasy",
     video:
       "https://play-games.googleusercontent.com/vp/mp4/1280x720/zuXCBvjRoBw.mp4",
-    img: "/img/ActionGames/ww2icon.png",
-    bgimg: "/img/ActionGames/ww2bg.jpg",
+    img: "./img/ActionGames/ww2icon.png",
+    bgimg: "./img/ActionGames/ww2bg.jpg",
     imgcard: [
-      "/img/ActionGames/ww21.png",
-      "/img/ActionGames/ww22.png",
-      "/img/ActionGames/ww23.png",
+      "./img/ActionGames/ww21.png",
+      "./img/ActionGames/ww22.png",
+      "./img/ActionGames/ww23.png",
     ],
     desc: "KARDS: THE ULTIMATE WW2 CARD BATTLE EXPERIENCE",
     about:
@@ -1837,12 +1837,12 @@ export let Games = [
     genre: "Card . Casual . Solitaire",
     video:
       "https://play-games.googleusercontent.com/vp/mp4/1280x720/IRkYfBB0N3Y.mp4",
-    img: "/img/ActionGames/monopolyicon.png",
-    bgimg: "/img/ActionGames/monopolybg.png",
+    img: "./img/ActionGames/monopolyicon.png",
+    bgimg: "./img/ActionGames/monopolybg.png",
     imgcard: [
-      "/img/ActionGames/monopoly1.jpg",
-      "/img/ActionGames/monopoly2.jpg",
-      "/img/ActionGames/monopoly3.jpg",
+      "./img/ActionGames/monopoly1.jpg",
+      "./img/ActionGames/monopoly2.jpg",
+      "./img/ActionGames/monopoly3.jpg",
     ],
     desc: "Play Monopoly Solitaire - The Ultimate Free Monopoly and Solitaire Game!",
     about:
@@ -1891,12 +1891,12 @@ export let Games = [
     genre: "Card . Casual . Solitaire",
     video:
       "https://play-games.googleusercontent.com/vp/mp4/1280x720/xC2XtDCMWts.mp4",
-    img: "/img/ActionGames/solitaireicon.png",
-    bgimg: "/img/ActionGames/solitairebg.png",
+    img: "./img/ActionGames/solitaireicon.png",
+    bgimg: "./img/ActionGames/solitairebg.png",
     imgcard: [
-      "/img/ActionGames/solitaire1.jpg",
-      "/img/ActionGames/solitaire2.jpg",
-      "/img/ActionGames/solitaire3.jpg",
+      "./img/ActionGames/solitaire1.jpg",
+      "./img/ActionGames/solitaire2.jpg",
+      "./img/ActionGames/solitaire3.jpg",
     ],
     desc: "This game has been re-imagined and is now better than ever. It's a puzzle game that requires logic and strategy to clear the table",
     about:
@@ -1945,12 +1945,12 @@ export let Games = [
     genre: "Card . Casual . Solitaire",
     video:
       "https://play-games.googleusercontent.com/vp/mp4/1280x720/Yic4XUt5mnw.mp4",
-    img: "/img/ActionGames/flickicon.jpg",
-    bgimg: "/img/ActionGames/flickbg.png",
+    img: "./img/ActionGames/flickicon.jpg",
+    bgimg: "./img/ActionGames/flickbg.png",
     imgcard: [
-      "/img/ActionGames/flick1.jpg",
-      "/img/ActionGames/flick2.jpg",
-      "/img/ActionGames/flick3.jpg",
+      "./img/ActionGames/flick1.jpg",
+      "./img/ActionGames/flick2.jpg",
+      "./img/ActionGames/flick3.jpg",
     ],
     desc: "Enjoy Flick's cozy, relaxing and satisfying Klondike, Pyramid & Spider Solitaire gameplay as you win and collect beautiful card art.",
     about:
@@ -1999,12 +1999,12 @@ export let Games = [
     genre: "Card",
     video:
       "https://play-games.googleusercontent.com/vp/mp4/1280x720/yO67fFP7z_g.mp4",
-    img: "/img/ActionGames/pokerduelicon.png",
-    bgimg: "/img/ActionGames/pokerduelbg.png",
+    img: "./img/ActionGames/pokerduelicon.png",
+    bgimg: "./img/ActionGames/pokerduelbg.png",
     imgcard: [
-      "/img/ActionGames/pokerduel1.png",
-      "/img/ActionGames/pokerduel2.png",
-      "/img/ActionGames/pokerduel3.png",
+      "./img/ActionGames/pokerduel1.png",
+      "./img/ActionGames/pokerduel2.png",
+      "./img/ActionGames/pokerduel3.png",
     ],
     desc: "✨ Poker Duel - Card Game is a refreshing spin on the classic card game",
     about:
@@ -2053,12 +2053,12 @@ export let Games = [
     genre: "Card . Card battler . Casual",
     video:
       "https://play-games.googleusercontent.com/vp/mp4/1280x720/Dfjng52LaFg.mp4",
-    img: "/img/ActionGames/castlesicon.png",
-    bgimg: "/img/ActionGames/castlesbg.jpg",
+    img: "./img/ActionGames/castlesicon.png",
+    bgimg: "./img/ActionGames/castlesbg.jpg",
     imgcard: [
-      "/img/ActionGames/castles1.png",
-      "/img/ActionGames/castles2.png",
-      "/img/ActionGames/castles3.png",
+      "./img/ActionGames/castles1.png",
+      "./img/ActionGames/castles2.png",
+      "./img/ActionGames/castles3.png",
     ],
     desc: "Collectible cards spring to life in this wacky Tactical CCG. Build a deck to challenge your friends and rivals, and engage in glorious CARD BATTLES! Will you choose fearsome vikings, or the deadly squirrels?",
     about:
@@ -2106,12 +2106,12 @@ export let Games = [
     genre: "Card . Card battler . Casual",
     video:
       "https://play-games.googleusercontent.com/vp/mp4/1280x720/fvHii2F3zl8.mp4",
-    img: "/img/ActionGames/ccgicon.png",
-    bgimg: "/img/ActionGames/ccgbg.jpg",
+    img: "./img/ActionGames/ccgicon.png",
+    bgimg: "./img/ActionGames/ccgbg.jpg",
     imgcard: [
-      "/img/ActionGames/ccg1.png",
-      "/img/ActionGames/ccg2.png",
-      "/img/ActionGames/ccg3.png",
+      "./img/ActionGames/ccg1.png",
+      "./img/ActionGames/ccg2.png",
+      "./img/ActionGames/ccg3.png",
     ],
     desc: "Build your collection with beautifully drawn runes, whether it’s a common Hammerfist Giant or the legendary Jupiter himself",
     about:
@@ -2160,12 +2160,12 @@ export let Games = [
     genre: "Kids . Cartoon . Educational",
     video:
       "https://play-games.googleusercontent.com/vp/mp4/1280x720/h4Jv7fKLlUg.mp4",
-    img: "/img/ActionGames/babyicon.png",
-    bgimg: "/img/ActionGames/babybg.png",
+    img: "./img/ActionGames/babyicon.png",
+    bgimg: "./img/ActionGames/babybg.png",
     imgcard: [
-      "/img/ActionGames/baby1.png",
-      "/img/ActionGames/baby2.png",
-      "/img/ActionGames/baby3.png",
+      "./img/ActionGames/baby1.png",
+      "./img/ActionGames/baby2.png",
+      "./img/ActionGames/baby3.png",
     ],
     desc: "Baby Games for 1-3 Year Olds provides a safe, learning experience for preschool toddlers aged 1-3 years old",
     about:
@@ -2214,12 +2214,12 @@ export let Games = [
     genre: "Kids . Language . Educational",
     video:
       "https://play-games.googleusercontent.com/vp/mp4/1280x720/tqkz8kJCsLw.mp4",
-    img: "/img/ActionGames/balloonicon.png",
-    bgimg: "/img/ActionGames/balloonbg.png",
+    img: "./img/ActionGames/balloonicon.png",
+    bgimg: "./img/ActionGames/balloonbg.png",
     imgcard: [
-      "/img/ActionGames/balloon1.png",
-      "/img/ActionGames/balloon2.png",
-      "/img/ActionGames/balloon3.png",
+      "./img/ActionGames/balloon1.png",
+      "./img/ActionGames/balloon2.png",
+      "./img/ActionGames/balloon3.png",
     ],
     desc: "the fun balloon popping baby game for kids aged 2-5",
     about:
@@ -2268,12 +2268,12 @@ export let Games = [
     genre: "Kids . Language . Educational",
     video:
       "https://play-games.googleusercontent.com/vp/mp4/1280x720/LFiu-cNr_WI.mp4",
-    img: "/img/ActionGames/loolooicon.png",
-    bgimg: "/img/ActionGames/looloobg.png",
+    img: "./img/ActionGames/loolooicon.png",
+    bgimg: "./img/ActionGames/looloobg.png",
     imgcard: [
-      "/img/ActionGames/looloo1.png",
-      "/img/ActionGames/looloo2.png",
-      "/img/ActionGames/looloo3.png",
+      "./img/ActionGames/looloo1.png",
+      "./img/ActionGames/looloo2.png",
+      "./img/ActionGames/looloo3.png",
     ],
     desc: "Have fun in 3 year old games free! You will love free toddler girl games!",
     about:
@@ -2321,12 +2321,12 @@ export let Games = [
     genre: "Brain . Hidden Object . Casual",
     video:
       "https://play-games.googleusercontent.com/vp/mp4/1280x720/b6j2g3PfQn8.mp4",
-    img: "/img/ActionGames/findicon.jpg",
-    bgimg: "/img/ActionGames/findbg.jpg",
+    img: "./img/ActionGames/findicon.jpg",
+    bgimg: "./img/ActionGames/findbg.jpg",
     imgcard: [
-      "/img/ActionGames/find1.jpg",
-      "/img/ActionGames/find2.jpg",
-      "/img/ActionGames/find3.jpg",
+      "./img/ActionGames/find1.jpg",
+      "./img/ActionGames/find2.jpg",
+      "./img/ActionGames/find3.jpg",
     ],
     desc: "Welcome to 'Find Hidden Objects - Spot It!' — Find Hidden Objects & Relax!",
     about:
@@ -2375,12 +2375,12 @@ export let Games = [
     genre: "Brain . Fantasy . Brain teaser",
     video:
       "https://play-games.googleusercontent.com/vp/mp4/1280x720/IZt3il-ynCk.mp4",
-    img: "/img/ActionGames/trickyicon.png",
-    bgimg: "/img/ActionGames/trickybg.jpg",
+    img: "./img/ActionGames/trickyicon.png",
+    bgimg: "./img/ActionGames/trickybg.jpg",
     imgcard: [
-      "/img/ActionGames/tricky1.jpg",
-      "/img/ActionGames/tricky2.jpg",
-      "/img/ActionGames/tricky3.jpg",
+      "./img/ActionGames/tricky1.jpg",
+      "./img/ActionGames/tricky2.jpg",
+      "./img/ActionGames/tricky3.jpg",
     ],
     desc: "Brain Test is an addictive free tricky puzzle game with a series of tricky brain teasers",
     about:
@@ -2429,12 +2429,12 @@ export let Games = [
     genre: "Brain . Escape . Mystery",
     video:
       "https://play-games.googleusercontent.com/vp/mp4/1280x720/LfIAMsieYUI.mp4",
-    img: "/img/ActionGames/escapeicon.png",
-    bgimg: "/img/ActionGames/escapebg.jpg",
+    img: "./img/ActionGames/escapeicon.png",
+    bgimg: "./img/ActionGames/escapebg.jpg",
     imgcard: [
-      "/img/ActionGames/escape1.png",
-      "/img/ActionGames/escape2.png",
-      "/img/ActionGames/escape3.png",
+      "./img/ActionGames/escape1.png",
+      "./img/ActionGames/escape2.png",
+      "./img/ActionGames/escape3.png",
     ],
     desc: "🔍 Unleash Your Inner Detective! Join Fiona on an Unforgettable Mystery Adventure! 🔍",
     about:
@@ -2483,12 +2483,12 @@ export let Games = [
     genre: "Brain . Casual . Stylzed",
     video:
       "https://play-games.googleusercontent.com/vp/mp4/1280x720/LnDbc6vqAsI.mp4",
-    img: "/img/ActionGames/dopicon.png",
-    bgimg: "/img/ActionGames/dopbg.png",
+    img: "./img/ActionGames/dopicon.png",
+    bgimg: "./img/ActionGames/dopbg.png",
     imgcard: [
-      "/img/ActionGames/dop1.png",
-      "/img/ActionGames/dop2.png",
-      "/img/ActionGames/dop3.png",
+      "./img/ActionGames/dop1.png",
+      "./img/ActionGames/dop2.png",
+      "./img/ActionGames/dop3.png",
     ],
     desc: "Think you’re smart? Then delete one part! 🤯",
     about:
@@ -2537,12 +2537,12 @@ export let Games = [
     genre: "Brain . sudoku . Casual",
     video:
       "https://play-games.googleusercontent.com/vp/mp4/1280x720/GKtDFbfkENA.mp4",
-    img: "/img/ActionGames/sudokuicon.png",
-    bgimg: "/img/ActionGames/sudokubg.jpg",
+    img: "./img/ActionGames/sudokuicon.png",
+    bgimg: "./img/ActionGames/sudokubg.jpg",
     imgcard: [
-      "/img/ActionGames/sudoku1.jpg",
-      "/img/ActionGames/sudoku2.jpg",
-      "/img/ActionGames/sudoku3.jpg",
+      "./img/ActionGames/sudoku1.jpg",
+      "./img/ActionGames/sudoku2.jpg",
+      "./img/ActionGames/sudoku3.jpg",
     ],
     desc: "Enjoy the Classic Sudoku Puzzle Game for free!",
     about:
@@ -2591,12 +2591,12 @@ export let Games = [
     genre: "Brain . Casual . stylized",
     video:
       "https://play-games.googleusercontent.com/vp/mp4/1280x720/7H-bTp75cnI.mp4",
-    img: "/img/ActionGames/whoicon.jpg",
-    bgimg: "/img/ActionGames/whobg.png",
+    img: "./img/ActionGames/whoicon.jpg",
+    bgimg: "./img/ActionGames/whobg.png",
     imgcard: [
-      "/img/ActionGames/who1.png",
-      "/img/ActionGames/who2.png",
-      "/img/ActionGames/who3.png",
+      "./img/ActionGames/who1.png",
+      "./img/ActionGames/who2.png",
+      "./img/ActionGames/who3.png",
     ],
     desc: "Who is? Brain Teaser & Riddles is a completely free riddle game, which will challenge your brain and mind",
     about:
