@@ -20,7 +20,7 @@ export default function TournamentsSection() {
         </div>
       </div>
       <div className="Tournaments-img">
-        <img src="/img/Events/dubai10.png" alt="" width={450} />
+        <img src="./img/Events/dubai10.png" alt="" width={450} />
       </div>
       <div className="Tournaments-section-bg"></div>
     </div>
