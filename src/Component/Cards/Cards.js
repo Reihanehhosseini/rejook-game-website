@@ -4,14 +4,17 @@ import Button from "../Button/Button";
 import Card from "react-bootstrap/Card";
 import { MdOutlineStarPurple500 } from "react-icons/md";
 
-
-export default function Cards({ video, img, name, genre, rate, href }) {
-
-
+export default function Cards({
+  video,
+  img,
+  name,
+  genre,
+  rate,
+  href,
+}) {
   return (
     <Card style={{ width: "18rem" }}>
-
-      <video controls>
+      <video controls loading="lazy">
         <source type="video/mp4" src={video} />
       </video>
       <Card.Body>

@@ -42,6 +42,7 @@ export default function Action() {
               genre={card.genre}
               rate={card.rate}
               href={`/${card.genre.split(".")[0].trim()}/${card.id}`}
+              iframeVideo={card.iframe}
             />
             ))
           )

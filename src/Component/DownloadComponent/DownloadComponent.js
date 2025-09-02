@@ -15,7 +15,7 @@ export default function DownloadComponent({
     <div className="DownloadComponent" data-aos="fade-up">
       <div className="download-header">
         <div className="download-header-img">
-          <img src={img} />
+          <img src={`.${img}`} />
         </div>
         <div className="download-header-text">
           <Titr titr={name} />

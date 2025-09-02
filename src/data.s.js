@@ -85,14 +85,14 @@ export let oldGames = [
     bgimg: "../img/play/cut the rope.jpg",
     icon: "../img/play/Om Nom.png",
     img: [
-      "../img/populargames/cuttherope2.png",
+      "./img/populargames/cuttherope2.png",
       "./img/populargames/cuttherope.png",
     ],
     desc: "Slove clever puzzles by cutting ropes to feed candy to the adorable monster, Om Nom",
     rate: 4.6,
     year: 2012,
     video:
-      "https://play-games.googleusercontent.com/vp/mp4/1280x720/CMaRxNpXCCE.mp4",
+      "./video/cut.mp4",
     company: " ZeptoLab ",
     Logo: "img/Company/ZeptoLab.png",
     fact: "Om Nom was originally a simple design, but adding cute eating animations and sounds made him the beloved icon of the game.",
@@ -105,9 +105,9 @@ export let oldGames = [
     id: 2,
     name: "Where is my Water?",
     bgimg: "../img/play/wmwbg.jpg",
-    icon: "../img/play/wmwicon.png",
+    icon: "./img/play/wmwicon.png",
     img: [
-      "../img/populargames/where is my water2.jpg",
+      "./img/populargames/where is my water2.jpg",
       "./img/populargames/where is my water.png",
     ],
     desc: "Get ready to join Swampy, Allie, and Cranky on their NEXT exciting adventure!",
@@ -128,14 +128,14 @@ export let oldGames = [
     bgimg: "../img/play/angree birds.jpg",
     icon: "../img/play/angribirdicon.png",
     img: [
-      "../img/populargames/angrybirds2.jpg",
+      "./img/populargames/angrybirds2.jpg",
       "./img/populargames/angrybirds.png",
     ],
     desc: "Launch angry birds to defeat the mischievous pigs and save the eggs!",
     rate: 4.5,
     year: 2009,
     video:
-      "https://play-games.googleusercontent.com/vp/mp4/1280x720/dSg_iqQpKYA.mp4",
+      "./video/angry.mp4",
     company: ". Rovio ",
     Logo: "img/Company/Rovio.jpg",
     fact: "The birds in Angry Birds were originally not angry , but adding their anger made the game a massive hit!",
@@ -151,14 +151,14 @@ export let oldGames = [
     bgimg: "../img/play/fruitninjabg2.jpg",
     icon: "../img/play/fruitninjaicon.png",
     img: [
-      "../img/populargames/fruitninja2.png",
+      "./img/populargames/fruitninja2.png",
       "./img/populargames/fruitninja.png",
     ],
     desc: "Slice fruits with speed and precision experiencing the thrill in every momnent.",
     rate: 3.9,
     year: 2010,
     video:
-      "https://play-games.googleusercontent.com/vp/mp4/1280x720/K1yxIY0kgXg.mp4",
+      "./video/ninja.mp4",
     company: ". Halfbrick Studios ",
     Logo: "img/Company/halfbrick.jpg",
     fact: "The idea of Fruit Ninja was inspired bye traditional Asian games where fruits were sliced with wooden swords.",
@@ -174,7 +174,7 @@ export let oldGames = [
     bgimg: "../img/play/pack-man.png",
     icon: "../img/play/packman2.png",
     img: [
-      "../img/populargames/packman2.jpg",
+      "./img/populargames/packman2.jpg",
       "./img/populargames/pack-man.png",
     ],
     desc: "Guide Pack-Man through a maze, gobbling pellets and doodging colorful ghosts to rack up the highest score",
@@ -196,7 +196,7 @@ export let oldGames = [
     bgimg: "./img/play/doodlejumpbg.jpg",
     icon: "../img/play/doodlejumpicon2.png",
     img: [
-      "../img/populargames/doodlejump2.jpg",
+      "./img/populargames/doodlejump2.jpg",
       "./img/populargames/doodlejump.png",
     ],
     desc: "One of the hottest mobile games of all time! Easy to pick up and play. Wildly addictive.",
@@ -221,7 +221,7 @@ export let Games = [
     rating: [{ 1: 30 }, { 2: 10 }, { 3: 40 }, { 4: 70 }, { 5: 80 }],
     genre: "Action . Runner . Arcade",
     video:
-      "https://play-games.googleusercontent.com/vp/mp4/1280x720/rysvKlaG3TU.mp4",
+      "./video/subway surfer.mp4",
     img: "./img/ActionGames/SubwaySurferIcon.jpg",
     bgimg: "./img/ActionGames/Subway Surfer3.jpg",
     imgcard: [
@@ -276,7 +276,7 @@ export let Games = [
     rating: [{ 1: 30 }, { 2: 10 }, { 3: 40 }, { 4: 70 }, { 5: 60 }],
     genre: "Action . Runner . Arcade",
     video:
-      "https://play-games.googleusercontent.com/vp/mp4/1280x720/k5LRsXWDKr4.mp4",
+      "./video/templerun.mp4",
     img: "./img/ActionGames/Temple Run.png",
     bgimg: "./img/ActionGames/temple runbg.jpg",
     imgcard: [
@@ -330,7 +330,7 @@ export let Games = [
     rating: [{ 1: 30 }, { 2: 10 }, { 3: 10 }, { 4: 60 }, { 5: 70 }],
     genre: "Action . Strategy . MultiPlayer",
     video:
-      "https://play-games.googleusercontent.com/vp/mp4/1280x720/Hq8F7kB6BJU.mp4",
+      "./video/suspect.mp4",
     img: "./img/ActionGames/suspect.jpg",
     bgimg: "./img/ActionGames/suspectbg2.png",
     imgcard: [
@@ -384,7 +384,7 @@ export let Games = [
     rating: [{ 1: 10 }, { 2: 20 }, { 3: 40 }, { 4: 50 }, { 5: 65 }],
     genre: "Action . Strategy . MultiPlayer",
     video:
-      "https://play-games.googleusercontent.com/vp/mp4/1280x720/8QSyEOICYSo.mp4",
+      "./video/amoungus.mp4",
     img: "./img/ActionGames/amoung4.jpg",
     bgimg: "./img/ActionGames/Amoung us.png",
     imgcard: [
@@ -438,7 +438,7 @@ export let Games = [
     rating: [{ 1: 25 }, { 2: 30 }, { 3: 63 }, { 4: 70 }, { 5: 85 }],
     genre: "Action . Platformer . Abstract",
     video:
-      "https://play-games.googleusercontent.com/vp/mp4/1280x720/pv1OtS5TZRs.mp4",
+      "./video/leveldevil.mp4",
     img: "./img/ActionGames/leveldevil2.png",
     bgimg: "./img/ActionGames/leveldevil.png",
     imgcard: [
@@ -492,7 +492,7 @@ export let Games = [
     rating: [{ 1: 12 }, { 2: 55 }, { 3: 63 }, { 4: 69 }, { 5: 74 }],
     genre: "Action . Racing . Casual",
     video:
-      "https://play-games.googleusercontent.com/vp/mp4/1280x720/d7GDbVbksa8.mp4",
+      "./video/hill.mp4",
     img: "./img/ActionGames/hcr2.png",
     bgimg: "./img/ActionGames/hcrbg.jpg",
     imgcard: [
@@ -546,7 +546,7 @@ export let Games = [
     rating: [{ 1: 22 }, { 2: 55 }, { 3: 63 }, { 4: 69 }, { 5: 79 }],
     genre: "Action . Runner . Arcade",
     video:
-      "https://play-games.googleusercontent.com/vp/mp4/1280x720/Fk8h6dF_O4Q.mp4",
+      "./video/kong.mp4",
     img: "./img/ActionGames/bananakong3.jpg",
     bgimg: "./img/ActionGames/banana kong.png",
     imgcard: [
@@ -600,7 +600,7 @@ export let Games = [
     rating: [{ 1: 32 }, { 2: 41 }, { 3: 63 }, { 4: 79 }, { 5: 73 }],
     genre: "Action . Strategy . Casual . Army",
     video:
-      "https://play-games.googleusercontent.com/vp/mp4/1280x720/eBop2FTGBgM.mp4",
+      "./video/kingdom.mp4",
     img: "./img/ActionGames/kingdom rush.jpg",
     bgimg: "./img/ActionGames/kingdom rush2.jpg",
     imgcard: [
@@ -654,7 +654,7 @@ export let Games = [
     rating: [{ 1: 20 }, { 2: 37 }, { 3: 44 }, { 4: 59 }, { 5: 77 }],
     genre: "Action . Shooter . Casual",
     video:
-      "https://play-games.googleusercontent.com/vp/mp4/1280x720/FLjeDkDFOTs.mp4",
+      "./video/gum.mp4",
     img: "./img/ActionGames/gumslinger2.jpg",
     bgimg: "./img/ActionGames/gumslingerbg.png",
     imgcard: [
@@ -708,7 +708,7 @@ export let Games = [
     rating: [{ 1: 55 }, { 2: 60 }, { 3: 70 }, { 4: 80 }, { 5: 40 }],
     genre: "Puzzle . Casual . Food",
     video:
-      "https://play-games.googleusercontent.com/vp/mp4/1280x720/dmSuqklZT9I.mp4",
+      "./video/candy.mp4",
     img: "./img/ActionGames/candyicon.png",
     bgimg: "./img/ActionGames/canducrushbg.jpg",
     imgcard: [
@@ -762,7 +762,7 @@ export let Games = [
     rating: [{ 1: 49 }, { 2: 50 }, { 3: 51 }, { 4: 68 }, { 5: 80 }],
     genre: "Puzzle . Casual . Block",
     video:
-      "https://play-games.googleusercontent.com/vp/mp4/1280x720/WnXrMbd-u8A.mp4",
+      "./video/tetris.mp4",
     img: "./img/ActionGames/tetrisicon.png",
     bgimg: "./img/ActionGames/canducrushbg.jpg",
     imgcard: [
@@ -816,7 +816,7 @@ export let Games = [
     rating: [{ 1: 0 }, { 2: 0 }, { 3: 0 }, { 4: 10 }, { 5: 74 }],
     genre: "Puzzle . Casual . Logic",
     video:
-      "https://play-games.googleusercontent.com/vp/mp4/1280x720/Me4ymG_vnOE.mp4",
+      "./video/valley.mp4",
     img: "./img/ActionGames/Monument_Valley_icon.jpg",
     bgimg: "./img/ActionGames/Monumentvalleybg.png",
     imgcard: [
@@ -870,7 +870,7 @@ export let Games = [
     rating: [{ 1: 61 }, { 2: 61 }, { 3: 22 }, { 4: 71 }, { 5: 80 }],
     genre: "Puzzle . Casual . Logic",
     video:
-      "https://play-games.googleusercontent.com/vp/mp4/1280x720/CMaRxNpXCCE.mp4",
+      "./video/cut.mp4",
     img: "./img/ActionGames/cuticon.png",
     bgimg: "./img/ActionGames/cutbg.jpg",
     imgcard: [
@@ -924,7 +924,7 @@ export let Games = [
     rating: [{ 1: 62 }, { 2: 11 }, { 3: 28 }, { 4: 43 }, { 5: 70 }],
     genre: "Puzzle . Animals . Physics",
     video:
-      "https://play-games.googleusercontent.com/vp/mp4/1280x720/dSg_iqQpKYA.mp4",
+      "./video/angry.mp4",
     img: "./img/ActionGames/angrybirdicon.png",
     bgimg: "./img/ActionGames/angrybirdbg.jpg",
     imgcard: [
@@ -978,7 +978,7 @@ export let Games = [
     rating: [{ 1: 40 }, { 2: 75 }, { 3: 79 }, { 4: 80 }, { 5: 80 }],
     genre: "Puzzle . Advanture . Casual",
     video:
-      "https://play-games.googleusercontent.com/vp/mp4/1280x720/h-NdQSeTPfA.mp4",
+      "./video/room.mp4",
     img: "./img/ActionGames/roomicon.png",
     bgimg: "./img/ActionGames/roombg.jpg",
     imgcard: [
@@ -1032,7 +1032,7 @@ export let Games = [
     rating: [{ 1: 0 }, { 2: 60 }, { 3: 61 }, { 4: 70 }, { 5: 90 }],
     genre: "Puzzle . Platformer . Offline",
     video:
-      "https://play-games.googleusercontent.com/vp/mp4/1280x720/VUxKRANpXwY.mp4",
+      "./video/human.mp4",
     img: "./img/ActionGames/humanicon.png",
     bgimg: "./img/ActionGames/humanbg.jpg",
     imgcard: [
@@ -1086,7 +1086,7 @@ export let Games = [
     rating: [{ 1: 0 }, { 2: 60 }, { 3: 61 }, { 4: 70 }, { 5: 90 }],
     genre: "Puzzle . Escape . Mystery",
     video:
-      "https://play-games.googleusercontent.com/vp/mp4/1280x720/sSDHbbzJJ1o.mp4",
+      "./video/escape.mp4",
     img: "./img/ActionGames/mysteryicon.png",
     bgimg: "./img/ActionGames/mysterybg.jpg",
     imgcard: [
@@ -1140,7 +1140,7 @@ export let Games = [
     rating: [{ 1: 0 }, { 2: 90 }, { 3: 70 }, { 4: 80 }, { 5: 80 }],
     genre: "Puzzle . Casual . Cartoon",
     video:
-      "https://play-games.googleusercontent.com/vp/mp4/1280x720/njwCvBuI6EE.mp4",
+      "./video/match.mp4",
     img: "./img/ActionGames/matchicon.png",
     bgimg: "./img/ActionGames/matchbg.png",
     imgcard: [
@@ -1194,7 +1194,7 @@ export let Games = [
     rating: [{ 1: 0 }, { 2: 90 }, { 3: 80 }, { 4: 80 }, { 5: 70 }],
     genre: "Sport . Casual . Tennis",
     video:
-      "https://play-games.googleusercontent.com/vp/mp4/1280x720/H43S_MitpF8.mp4",
+      "./video/tennis.mp4",
     img: "./img/ActionGames/tennisicon.jpg",
     bgimg: "./img/ActionGames/tennis-clashbg.jpg",
     imgcard: [
@@ -1248,7 +1248,7 @@ export let Games = [
     rating: [{ 1: 10 }, { 2: 70 }, { 3: 70 }, { 4: 79 }, { 5: 80 }],
     genre: "Sport . Casual . Soccer",
     video:
-      "https://play-games.googleusercontent.com/vp/mp4/1280x720/6GwS90gwLig.mp4",
+      "./video/soccer.mp4",
     img: "./img/ActionGames/soccericon.png",
     bgimg: "./img/ActionGames/soccerbg.png",
     imgcard: [
@@ -1302,7 +1302,7 @@ export let Games = [
     rating: [{ 1: 10 }, { 2: 60 }, { 3: 73 }, { 4: 80 }, { 5: 75 }],
     genre: "Sport . Casual . Soccer",
     video:
-      "https://play-games.googleusercontent.com/vp/mp4/1280x720/MkKWx0uVyRw.mp4",
+      "./video/pool.mp4",
     img: "./img/ActionGames/ballpoolicon.png",
     bgimg: "./img/ActionGames/ballpoolbg.jpg",
     imgcard: [
@@ -1356,7 +1356,7 @@ export let Games = [
     rating: [{ 1: 10 }, { 2: 60 }, { 3: 73 }, { 4: 80 }, { 5: 75 }],
     genre: "Sport . Casual . Prkour",
     video:
-      "https://play-games.googleusercontent.com/vp/mp4/1280x720/vAbN2dIdOvE.mp4",
+      "./video/vector.mp4",
     img: "./img/ActionGames/vectoricon.png",
     bgimg: "./img/ActionGames/vectorbg.png",
     imgcard: [
@@ -1410,7 +1410,7 @@ export let Games = [
     rating: [{ 1: 10 }, { 2: 60 }, { 3: 73 }, { 4: 80 }, { 5: 75 }],
     genre: "Sport . Casual . Baseball",
     video:
-      "https://play-games.googleusercontent.com/vp/mp4/1280x720/f8d8LpagbVg.mp4",
+      "./video/baseball.mp4",
     img: "./img/ActionGames/baseballicon.png",
     bgimg: "./img/ActionGames/baseballbg.jpg",
     imgcard: [
@@ -1464,7 +1464,7 @@ export let Games = [
     rating: [{ 1: 10 }, { 2: 60 }, { 3: 73 }, { 4: 80 }, { 5: 75 }],
     genre: "Sport . Casual . Billiard",
     video:
-      "https://play-games.googleusercontent.com/vp/mp4/1280x720/2GtT-ZNr_q4.mp4",
+      "./video/pooking.mp4",
     img: "./img/ActionGames/billiardicon.png",
     bgimg: "./img/ActionGames/billiardbg.jpg",
     imgcard: [
@@ -1518,7 +1518,7 @@ export let Games = [
     rating: [{ 1: 10 }, { 2: 60 }, { 3: 73 }, { 4: 80 }, { 5: 75 }],
     genre: "Sport . Casual . Volleyball",
     video:
-      "https://play-games.googleusercontent.com/vp/mp4/1280x720/I5-3lmFbaZs.mp4",
+      "./video/volleyball.mp4",
     img: "./img/ActionGames/volleyballicon.png",
     bgimg: "./img/ActionGames/volleyballbg.png",
     imgcard: [
@@ -1572,7 +1572,7 @@ export let Games = [
     rating: [{ 1: 0 }, { 2: 74 }, { 3: 62 }, { 4: 80 }, { 5: 60 }],
     genre: "Sport . Casual . Board",
     video:
-      "https://play-games.googleusercontent.com/vp/mp4/1280x720/1lX_YUvelBk.mp4",
+      "./video/chess.mp4",
     img: "./img/ActionGames/chessicon.jpg",
     bgimg: "./img/ActionGames/chessbg.jpg",
     imgcard: [
@@ -1626,7 +1626,7 @@ export let Games = [
     rating: [{ 1: 10 }, { 2: 32 }, { 3: 62 }, { 4: 70 }, { 5: 75 }],
     genre: "Sport . Casual . BasketBall",
     video:
-      "https://play-games.googleusercontent.com/vp/mp4/1280x720/wc_LGbrvV9k.mp4",
+      "./video/basketball.mp4",
     img: "./img/ActionGames/basketballicon.png",
     bgimg: "./img/ActionGames/basketballbg.png",
     imgcard: [
@@ -1680,7 +1680,7 @@ export let Games = [
     rating: [{ 1: 51 }, { 2: 50 }, { 3: 75 }, { 4: 80 }, { 5: 70 }],
     genre: "Card . Card Battler . Offline",
     video:
-      "https://play-games.googleusercontent.com/vp/mp4/1280x720/REK1SwKmPNc.mp4",
+      "./video/card.mp4",
     img: "./img/ActionGames/crawlicon.png",
     bgimg: "./img/ActionGames/crawlbg.png",
     imgcard: [
@@ -1734,7 +1734,7 @@ export let Games = [
     rating: [{ 1: 80 }, { 2: 70 }, { 3: 52 }, { 4: 63 }, { 5: 65 }],
     genre: "Card . Card Battler . Fantasy",
     video:
-      "https://play-games.googleusercontent.com/vp/mp4/1280x720/ZIQ2KWnKP7I.mp4",
+      "./video/gwent.mp4",
     img: "./img/ActionGames/gwenticon.png",
     bgimg: "./img/ActionGames/gwentbg.png",
     imgcard: [
@@ -1788,7 +1788,7 @@ export let Games = [
     rating: [{ 1: 80 }, { 2: 70 }, { 3: 52 }, { 4: 63 }, { 5: 65 }],
     genre: "Card . Card Battler . Fantasy",
     video:
-      "https://play-games.googleusercontent.com/vp/mp4/1280x720/zuXCBvjRoBw.mp4",
+      "./video/ww2.mp4",
     img: "./img/ActionGames/ww2icon.png",
     bgimg: "./img/ActionGames/ww2bg.jpg",
     imgcard: [
@@ -1842,7 +1842,7 @@ export let Games = [
     rating: [{ 1: 10 }, { 2: 5 }, { 3: 11 }, { 4: 22 }, { 5: 31 }],
     genre: "Card . Casual . Solitaire",
     video:
-      "https://play-games.googleusercontent.com/vp/mp4/1280x720/IRkYfBB0N3Y.mp4",
+      "./video/monopoly.mp4",
     img: "./img/ActionGames/monopolyicon.png",
     bgimg: "./img/ActionGames/monopolybg.png",
     imgcard: [
@@ -1896,7 +1896,7 @@ export let Games = [
     rating: [{ 1: 30 }, { 2: 55 }, { 3: 80 }, { 4: 59 }, { 5: 69 }],
     genre: "Card . Casual . Solitaire",
     video:
-      "https://play-games.googleusercontent.com/vp/mp4/1280x720/xC2XtDCMWts.mp4",
+      "./video/pyramid.mp4",
     img: "./img/ActionGames/solitaireicon.png",
     bgimg: "./img/ActionGames/solitairebg.png",
     imgcard: [
@@ -1950,7 +1950,7 @@ export let Games = [
     rating: [{ 1: 19 }, { 2: 41 }, { 3: 80 }, { 4: 59 }, { 5: 73 }],
     genre: "Card . Casual . Solitaire",
     video:
-      "https://play-games.googleusercontent.com/vp/mp4/1280x720/Yic4XUt5mnw.mp4",
+      "./video/flick.mp4",
     img: "./img/ActionGames/flickicon.jpg",
     bgimg: "./img/ActionGames/flickbg.png",
     imgcard: [
@@ -2004,7 +2004,7 @@ export let Games = [
     rating: [{ 1: 20 }, { 2: 59 }, { 3: 70 }, { 4: 59 }, { 5: 71 }],
     genre: "Card",
     video:
-      "https://play-games.googleusercontent.com/vp/mp4/1280x720/yO67fFP7z_g.mp4",
+      "./video/poker.mp4",
     img: "./img/ActionGames/pokerduelicon.png",
     bgimg: "./img/ActionGames/pokerduelbg.png",
     imgcard: [
@@ -2058,7 +2058,7 @@ export let Games = [
     rating: [{ 1: 80 }, { 2: 61 }, { 3: 70 }, { 4: 60 }, { 5: 73 }],
     genre: "Card . Card battler . Casual",
     video:
-      "https://play-games.googleusercontent.com/vp/mp4/1280x720/Dfjng52LaFg.mp4",
+      "./video/castles.mp4",
     img: "./img/ActionGames/castlesicon.png",
     bgimg: "./img/ActionGames/castlesbg.jpg",
     imgcard: [
@@ -2111,7 +2111,7 @@ export let Games = [
     rating: [{ 1: 50 }, { 2: 80 }, { 3: 71 }, { 4: 75 }, { 5: 40 }],
     genre: "Card . Card battler . Casual",
     video:
-      "https://play-games.googleusercontent.com/vp/mp4/1280x720/fvHii2F3zl8.mp4",
+      "./video/ccg.mp4",
     img: "./img/ActionGames/ccgicon.png",
     bgimg: "./img/ActionGames/ccgbg.jpg",
     imgcard: [
@@ -2165,7 +2165,7 @@ export let Games = [
     rating: [{ 1: 50 }, { 2: 80 }, { 3: 71 }, { 4: 75 }, { 5: 40 }],
     genre: "Kids . Cartoon . Educational",
     video:
-      "https://play-games.googleusercontent.com/vp/mp4/1280x720/h4Jv7fKLlUg.mp4",
+      "./video/baby.mp4",
     img: "./img/ActionGames/babyicon.png",
     bgimg: "./img/ActionGames/babybg.png",
     imgcard: [
@@ -2219,7 +2219,7 @@ export let Games = [
     rating: [{ 1: 10 }, { 2: 0 }, { 3: 60 }, { 4: 80 }, { 5: 50 }],
     genre: "Kids . Language . Educational",
     video:
-      "https://play-games.googleusercontent.com/vp/mp4/1280x720/tqkz8kJCsLw.mp4",
+      "./video/balloon.mp4",
     img: "./img/ActionGames/balloonicon.png",
     bgimg: "./img/ActionGames/balloonbg.png",
     imgcard: [
@@ -2273,7 +2273,7 @@ export let Games = [
     rating: [{ 1: 15 }, { 2: 20 }, { 3: 60 }, { 4: 60 }, { 5: 60 }],
     genre: "Kids . Language . Educational",
     video:
-      "https://play-games.googleusercontent.com/vp/mp4/1280x720/LFiu-cNr_WI.mp4",
+      "./video/looloo.mp4",
     img: "./img/ActionGames/loolooicon.png",
     bgimg: "./img/ActionGames/looloobg.png",
     imgcard: [
@@ -2326,7 +2326,7 @@ export let Games = [
     rating: [{ 1: 69 }, { 2: 71 }, { 3: 75 }, { 4: 70 }, { 5: 80 }],
     genre: "Brain . Hidden Object . Casual",
     video:
-      "https://play-games.googleusercontent.com/vp/mp4/1280x720/b6j2g3PfQn8.mp4",
+      "./video/hidden.mp4",
     img: "./img/ActionGames/findicon.jpg",
     bgimg: "./img/ActionGames/findbg.jpg",
     imgcard: [
@@ -2380,7 +2380,7 @@ export let Games = [
     rating: [{ 1: 69 }, { 2: 71 }, { 3: 75 }, { 4: 70 }, { 5: 80 }],
     genre: "Brain . Fantasy . Brain teaser",
     video:
-      "https://play-games.googleusercontent.com/vp/mp4/1280x720/IZt3il-ynCk.mp4",
+      "./video/tricky.mp4",
     img: "./img/ActionGames/trickyicon.png",
     bgimg: "./img/ActionGames/trickybg.jpg",
     imgcard: [
@@ -2434,7 +2434,7 @@ export let Games = [
     rating: [{ 1: 52 }, { 2: 71 }, { 3: 69 }, { 4: 61 }, { 5: 64 }],
     genre: "Brain . Escape . Mystery",
     video:
-      "https://play-games.googleusercontent.com/vp/mp4/1280x720/LfIAMsieYUI.mp4",
+      "./video/roomgame.mp4",
     img: "./img/ActionGames/escapeicon.png",
     bgimg: "./img/ActionGames/escapebg.jpg",
     imgcard: [
@@ -2488,7 +2488,7 @@ export let Games = [
     rating: [{ 1: 52 }, { 2: 71 }, { 3: 69 }, { 4: 61 }, { 5: 64 }],
     genre: "Brain . Casual . Stylzed",
     video:
-      "https://play-games.googleusercontent.com/vp/mp4/1280x720/LnDbc6vqAsI.mp4",
+      "./video/dop.mp4",
     img: "./img/ActionGames/dopicon.png",
     bgimg: "./img/ActionGames/dopbg.png",
     imgcard: [
@@ -2542,7 +2542,7 @@ export let Games = [
     rating: [{ 1: 0 }, { 2: 72 }, { 3: 75 }, { 4: 70 }, { 5: 81 }],
     genre: "Brain . sudoku . Casual",
     video:
-      "https://play-games.googleusercontent.com/vp/mp4/1280x720/GKtDFbfkENA.mp4",
+      "./video/sudoku.mp4",
     img: "./img/ActionGames/sudokuicon.png",
     bgimg: "./img/ActionGames/sudokubg.jpg",
     imgcard: [
@@ -2596,7 +2596,7 @@ export let Games = [
     rating: [{ 1: 63 }, { 2: 10 }, { 3: 56 }, { 4: 32 }, { 5: 77 }],
     genre: "Brain . Casual . stylized",
     video:
-      "https://play-games.googleusercontent.com/vp/mp4/1280x720/7H-bTp75cnI.mp4",
+      "./video/who.mp4",
     img: "./img/ActionGames/whoicon.jpg",
     bgimg: "./img/ActionGames/whobg.png",
     imgcard: [

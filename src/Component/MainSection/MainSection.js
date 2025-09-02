@@ -18,7 +18,7 @@ export default function MainSection() {
           <Titr titr="Fun Games Mobile Games"/>
           <h3>discover mobile games with REJOOKGAME</h3>
           <br />
-          <Button title="Browse Games"/>
+          <Button title="Browse Games" href="/Game"/>
         </div>
         <img className="mainsection-img" src="./img/Games/Amoung_Us2.png" alt="" data-aos="fade-up"/>
       </div>

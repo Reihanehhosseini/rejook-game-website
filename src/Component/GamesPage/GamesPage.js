@@ -107,8 +107,8 @@ export default function GamesPage() {
               <span className="gamesPage-genre">{selectGame?.genre}</span>
             </div>
             <div className="gamesPage-about-video">
-              <video src={selectGame?.video} autoPlay loop controls>
-                <source src={selectGame?.video} />
+              <video src={`.${selectGame?.video}`} autoPlay loop controls loading="lazy">
+                <source src={`.${selectGame?.video}`} />
               </video>
             </div>
           </div>
