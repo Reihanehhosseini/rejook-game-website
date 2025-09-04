@@ -221,7 +221,7 @@ export let Games = [
     rating: [{ 1: 30 }, { 2: 10 }, { 3: 40 }, { 4: 70 }, { 5: 80 }],
     genre: "Action . Runner . Arcade",
     video:
-      "./video/subway surfer.mp4",
+      "./video/subwaysurfer.mp4",
     img: "./img/ActionGames/SubwaySurferIcon.jpg",
     bgimg: "./img/ActionGames/Subway Surfer3.jpg",
     imgcard: [

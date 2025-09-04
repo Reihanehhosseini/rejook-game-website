@@ -35,7 +35,7 @@ export default function PlayGame() {
           <Titr titr={selectOldGame?.name} />
         </div>
         <div className="playGame-Bg">
-          <video autoPlay controls loop src={`.${selectOldGame?.video}`} loading="lazy">
+          <video preload="metadata" autoPlay controls loop src={`.${selectOldGame?.video}`} loading="lazy">
             <source src={`.${selectOldGame?.video}`}/>
           </video>
         </div>

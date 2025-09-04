@@ -14,7 +14,7 @@ export default function Cards({
 }) {
   return (
     <Card style={{ width: "18rem" }}>
-      <video controls loading="lazy">
+      <video controls loading="lazy" preload="metadata">
         <source type="video/mp4" src={video} />
       </video>
       <Card.Body>
