@@ -1,1 +1,1 @@
-#[Rejook Game Website](https://reihanehhosseini.github.io/rejook-game-website/)
+[Rejook Game Website](https://reihanehhosseini.github.io/rejook-game-website/)
