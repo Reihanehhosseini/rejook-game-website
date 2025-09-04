@@ -6,6 +6,7 @@ import Portal from "./Portal";
 import { RejookContext } from "./Context";
 import { Games, oldGames, tips } from "./data.s";
 import Footer from "./Component/Footer/Footer";
+import ScrollTop from "./ScrollTop";
 
 function App() {
   const [humbergerMenuShow, setHumbergerMenuShow] = useState(false);
@@ -48,6 +49,7 @@ function App() {
       }}
     >
       <div className="App">
+        <ScrollTop/>
         <Portal />
         <Header />
         <Section />
