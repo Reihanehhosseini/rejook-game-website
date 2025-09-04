@@ -19,5 +19,5 @@ it provides a smooth and modern user experience for players of all ages
   <li>Git & GitHub: Version control and project management</li></li>
 </ul>
 
-<p>Live Demo</p>
-[Rejook Game Website](https://reihanehhosseini.github.io/rejook-game-website/)
+<h1>Live Demo</h1>
+(https://reihanehhosseini.github.io/rejook-game-website/)
