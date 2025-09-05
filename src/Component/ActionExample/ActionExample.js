@@ -3,7 +3,6 @@ import "./ActionExample.css";
 import Titr from "../Titr/Titr";
 import Button from "../Button/Button";
 import Cards from "../Cards/Cards";
-import { actionGames } from "../../data.s";
 import { RejookContext } from "../../Context";
 import "aos/dist/aos.css";
 
@@ -16,7 +15,7 @@ export default function ActionExample() {
     setRandomActionsGames(shuffled.slice(0, 3));
 
  
-  }, []);
+  }, [dataContext.allGames]);
 
   return (
     <div className="action-example">

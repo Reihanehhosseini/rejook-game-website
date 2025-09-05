@@ -10,8 +10,8 @@ export default function TeamMember() {
   useEffect(() => {
     AOS.init({ duration: 1000,
      });
-  }, []);
-  const [allPeople, setAllPeople] = useState(membersTeam);
+  }, [AOS]);
+  const [allPeople] = useState(membersTeam);
   return (
     <div className="TeamMember" data-aos="fade-up">
       <div className="teamMember-header">

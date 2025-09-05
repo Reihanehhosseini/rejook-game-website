@@ -12,6 +12,7 @@ export default function OldGameGrid() {
           <img
             className="oldGameGridImg"
             src={item.img[0]}
+            alt="oldgame"
           />
         </div>
       ))}

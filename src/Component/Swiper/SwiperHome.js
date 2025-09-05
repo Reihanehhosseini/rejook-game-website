@@ -11,7 +11,8 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 
 export default function SwiperHome() {
-  const [topgamesCharecter, setTopgamesCharecter] = useState(gamesCharecter);
+  const [topgamesCharecter] = useState(gamesCharecter);
+
 
   useEffect(() => {
     AOS.init({ duration: 1000, throttleDelay: 50 });

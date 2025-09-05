@@ -1,8 +1,8 @@
-import React, { useCallback, useContext, useEffect, useState } from "react";
+import React, { useContext, useEffect, useState } from "react";
 import GamesCard from "../GamesCard/GamesCard";
 import "./Gamespage.css";
 import { RejookContext } from "../../Context";
-import { useLocation, useParams } from "react-router-dom";
+import { useParams } from "react-router-dom";
 import BreadCrumb from "../BreadCrumb/BreadCrumb";
 import { AiTwotoneHome } from "react-icons/ai";
 import { MdOutlineStarPurple500 } from "react-icons/md";
@@ -20,7 +20,6 @@ export default function GamesPage() {
   let params = useParams();
 
   const [selectGame, setSelectGame] = useState(null);
-  const [comment, setComment] = useState(null);
   const [isClickedLike, setIsClickedLike] = useState(false);
   const [isClickedDisLike, setIsClickedDisLike] = useState(true);
 
@@ -31,7 +30,7 @@ export default function GamesPage() {
   useEffect(() => {
     if (dataContext.allGames && params.id) {
       const game = dataContext.allGames.find(
-        (game) => game.id == parseInt(params.id)
+        (game) => game.id === parseInt(params.id)
       );
       setSelectGame(game);
     }
@@ -174,10 +173,4 @@ export default function GamesPage() {
       </div>
     </div>
   );
-}
-
-{
-  /* <div className="gamesPage-about-img">
-          <img src={selectGame.img} alt="" />
-        </div> */
 }

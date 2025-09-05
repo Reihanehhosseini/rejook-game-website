@@ -13,22 +13,22 @@ export default function PlayGame() {
 
   useEffect(() => {
     AOS.init({ duration: 1000 });
-  }, []);
+  }, [AOS]);
 
   useEffect(() => {
     if (dataContext.allGames && params.id) {
       const oldGame = dataContext.popularGamesArray.find(
-        (game) => game.id == parseInt(params.id)
+        (game) => game.id === parseInt(params.id)
       );
       setSelectOldGame(oldGame);
     }
   }, [dataContext.allGames, params.id]);
-  console.log(selectOldGame);
+
 
   return (
     <div className="PlayGame">
       <div className="playgame-icon">
-        <img src={selectOldGame?.icon} />
+        <img src={selectOldGame?.icon} alt="" />
       </div>
       <div className="PlayGameHeader">
         <div className="playgame-title">

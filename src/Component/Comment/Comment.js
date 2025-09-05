@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React from "react";
 import "./Comment.css";
 import Rating from "react-rating";
 import { FaStar } from "react-icons/fa";

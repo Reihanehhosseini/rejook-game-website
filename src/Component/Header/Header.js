@@ -1,5 +1,5 @@
 import "./Header.css";
-import React, { useEffect, useState } from "react";
+import React, { useEffect } from "react";
 import IconHeader from "../IconHeader/IconHeader";
 import { FcSearch } from "react-icons/fc";
 import Brightness from "../Brightness/Brightness";
@@ -15,7 +15,6 @@ import { TbPlayCardJFilled } from "react-icons/tb";
 import { TbMoodKidFilled } from "react-icons/tb";
 import { PiBrainDuotone } from "react-icons/pi";
 import { AiTwotoneHome } from "react-icons/ai";
-import { Link } from "react-router-dom";
 import { useContext } from "react";
 import { RejookContext } from "../../Context";
 import Search from "../Search/Search";

@@ -28,7 +28,7 @@ export default function CommentArea({ idGame }) {
 
     const dateString = `${currentMonth} ${currentDay} ${currentYear}`;
     dataContext.setDate(dateString);
-  }, []);
+  }, [dataContext]);
 
   const submitComments = (event) => {
     event.preventDefault();

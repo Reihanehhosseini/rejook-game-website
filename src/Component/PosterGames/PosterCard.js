@@ -1,4 +1,4 @@
-import React, { useState , useContext } from "react";
+import React, { useContext } from "react";
 import "./PosterCards.css";
 import { RejookContext } from "../../Context";
 import { Link } from "react-router-dom";

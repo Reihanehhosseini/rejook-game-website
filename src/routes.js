@@ -4,7 +4,6 @@ import Action from "./Pages/Action/Action";
 import GamesPage from "./Component/GamesPage/GamesPage";
 import OldGames from "./Pages/OldGames/OldGames";
 import PlayGame from "./Component/PlayGame/PlayGame";
-import GameCanvas from "./Component/PlayGame/PlayGame";
 import Tournaments from "./Pages/Tournaments/Tournaments"
 import ProTips from "./Pages/ProTips/ProTips";
 

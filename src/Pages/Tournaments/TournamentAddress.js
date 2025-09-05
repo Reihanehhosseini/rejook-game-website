@@ -1,6 +1,5 @@
 import React from "react";
 import "./TournamentAddress.css";
-import Titr from "../../Component/Titr/Titr";
 import TournamentBox from "./TournamentBox";
 
 export default function TournamentAddress() {

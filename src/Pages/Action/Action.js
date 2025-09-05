@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React from "react";
 import "./Action.css";
 import Cards from "../../Component/Cards/Cards";
 import { useContext } from "react";
@@ -6,7 +6,7 @@ import Titr from "../../Component/Titr/Titr";
 import BreadCrumb from "../../Component/BreadCrumb/BreadCrumb";
 import { AiTwotoneHome } from "react-icons/ai";
 import { RejookContext } from "../../Context";
-import { useLocation, useParams } from "react-router-dom";
+import { useLocation } from "react-router-dom";
 
 export default function Action() {
   const dataContext = useContext(RejookContext);
