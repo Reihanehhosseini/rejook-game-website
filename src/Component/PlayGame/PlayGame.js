@@ -13,8 +13,10 @@ export default function PlayGame() {
 
   useEffect(() => {
     AOS.init({ duration: 1000 });
-  }, [AOS]);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, []);
 
+  // eslint-disable-next-line react-hooks/exhaustive-deps
   useEffect(() => {
     if (dataContext.allGames && params.id) {
       const oldGame = dataContext.popularGamesArray.find(

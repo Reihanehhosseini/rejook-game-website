@@ -1,4 +1,4 @@
-import React, { useState , useEffect } from "react";
+import React, { useState, useEffect } from "react";
 import "./TeamMember.css";
 import Titr from "../Titr/Titr";
 import Member from "../Member/Member";
@@ -8,9 +8,9 @@ import "aos/dist/aos.css";
 
 export default function TeamMember() {
   useEffect(() => {
-    AOS.init({ duration: 1000,
-     });
-  }, [AOS]);
+    AOS.init({ duration: 1000 });
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, []);
   const [allPeople] = useState(membersTeam);
   return (
     <div className="TeamMember" data-aos="fade-up">

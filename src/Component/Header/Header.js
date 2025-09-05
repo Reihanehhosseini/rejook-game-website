@@ -26,7 +26,7 @@ export default function Header() {
     dataContext.setHumbergerMenuShow(true);
     dataContext.setShowPortal(true);
   };
-
+  // eslint-disable-next-line react-hooks/exhaustive-deps
   useEffect(() => {
     if (dataContext.allGames && dataContext.searchValue) {
       const filterGames = dataContext.allGames.filter((item) => {
@@ -39,7 +39,6 @@ export default function Header() {
       dataContext.setFindGame([]);
     }
   }, [dataContext.searchValue, dataContext.allGames]);
-  console.log(dataContext.findGame);
 
   return (
     <div className="Header">
@@ -109,7 +108,7 @@ export default function Header() {
         </div>
       </div>
       <div className="LogoHeader">
-        <img src="./img/REJOOK-.png" className="logo" />
+        <img src="./img/REJOOK-.png" className="logo" alt="logo" />
         <span>Rejook</span>
       </div>
       <div className="inputHeader">
